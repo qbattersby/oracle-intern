@@ -7,7 +7,7 @@
 // Foundation core and utils - Best to import all of these
 import jQuery from 'jquery';
 import { Foundation } from 'zf/foundation.core';
-import { rtl, GetYoDigits, transitionend } from 'zf/foundation.util.core';
+import { rtl, GetYoDigits, transitionend } from 'zf/foundation.core.utils';
 import { Box } from 'zf/foundation.util.box';
 import { onImagesLoaded } from 'zf/foundation.util.imageLoader';
 import { Keyboard } from 'zf/foundation.util.keyboard';
