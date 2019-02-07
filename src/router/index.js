@@ -21,7 +21,12 @@ export default new Router({
   linkActiveClass: 'active',
   routes: [
     // routes
-    { name: 'home', path: '/', component: Home },
+    {
+      name: 'home',
+      path: '/',
+      component: Home,
+      meta: { title: 'Dashboard' },
+    },
     { name: 'reveal', path: '/reveal', component: Reveal },
     { name: 'slider', path: '/slider', component: Slider },
     { name: 'tooltip', path: '/tooltip', component: Tooltip },
