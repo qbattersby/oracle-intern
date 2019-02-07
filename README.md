@@ -1,13 +1,16 @@
-# vue-foundation
+# Oracle Intern Experience 2019 built on vue-foundation
 
-> A boilerplate integrating Foundation for Sites and VueJS
+## Overall
+
+Details below about original source and some build processes. Updated to work on Foundation 6.5.3. Designed by Stryve Marketing, developed by [Quinn Battersby](https://www.qbattersby.com).
+
+
+---
+
+
 
 This repository is an example of how to use [Foundation for Sites](https://github.com/zurb/foundation-sites) in a [Vue](https://github.com/vuejs/vue) single-page application. The project is scaffolded using [vue-cli](https://github.com/vuejs/vue-cli), with the [webpack](https://github.com/vuejs-templates/webpack) template, and [vue-router](https://github.com/vuejs/vue-router). 
 
-A detailed description of the project [is available here](https://medium.com/@tommaso.marcelli/setting-up-vue-2-and-foundation-6-3f858b4ad20#.mfkp11mid).
-
-## Warning
-The master branch is based on a recent vue-cli template, which makes use of Webpack 2. For a working configuration using Webpack 1, check out the [webpackv1 branch](https://github.com/hal0gen/vue-foundation/tree/webpackv1)
 
 ## Build Setup
 
@@ -93,10 +96,3 @@ In order to work properly, [Orbit needs the Motion UI library](http://foundation
 
 ### Slider
 This component requires listening to Foundation custom events, setting a `v-model` on the hidden input will not work, as explained here: [vuejs/vue#372](https://github.com/vuejs/vue/issues/372) 
-
-## Change Log
-
-_Note: Versions based on the package.json version value_
-
-*   v3.0 [2017-09-26] Replaced single foundation import to plugin import.
-*   v2.0 [2017-09-05] Upgraded to Foundation 6.4.3 including XY Grid support.
