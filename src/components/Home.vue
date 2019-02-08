@@ -1,16 +1,32 @@
 <template>
-  <div class="grid-container">
-    <div class="grid-x text-center">
-      <div class="cell">
-        <img src="../assets/img/vue-yeti.jpg">
+  <div class="home">
+    <div class="callout">
+      <div class="cloud x1"><img src="../assets/img/cloud1.svg"></div>
+      <div class="cloud x2"><img src="../assets/img/cloud2.svg"></div>
+      <div class="cloud x3"><img src="../assets/img/cloud3.svg"></div>
+
+      <div class="callout-content grid-container">
+        <h1 class="callout-heading">Get Ready to Soar</h1>
+        <img class="main-plane" src="../assets/img/main-plane.svg" alt="Welcome to Oracle">
+
+        <div class="grid-x">
+          <div class="callout-copy cell medium-7">
+            <p>Welcome to the Oracle Team. It’s time to push boundaries, breakdown tradition and reach the clouds.</p>
+            <p>Want to succeed at Oracle? We have everything you need right here. We’re excited about your future.</p>
+            <router-link to="/achieve-success" exact class="button large secondary">Achieve Success</router-link>
+          </div>
+        </div>
       </div>
+
+
+
     </div>
-    <div class="grid-x text-center">
-      <div class="cell">
-        <h1>{{ msg }}</h1>
-        <p>This is a demo integration of Foundation for Sites 6.3 in a VueJS 2.2 single-page application.</p>
-        <a class="button secondary call-button" data-toggle="offCanvas"><i class="icon-puzzle"></i>JS Components</a>
-        <a class="button secondary hollow call-button" href="https://github.com/vue-foundation/vue-foundation"><i class="icon-github-circled"></i>Source</a>
+
+    <div class="grid-container">
+      <div class="grid-x text-center">
+        <div class="cell">
+          <h1>{{ msg }}</h1>
+        </div>
       </div>
     </div>
   </div>
@@ -21,7 +37,7 @@ export default {
   name: 'hello',
   data() {
     return {
-      msg: 'Vue + Foundation',
+      msg: 'Home',
     };
   },
 };
@@ -30,17 +46,31 @@ export default {
 
 <style lang="scss" scoped>
 
-  .image {
-    margin-top: 0.75rem;
-    margin-bottom: 1.5rem;
+  .callout {
+    height: calc(100vh - 55px);
+    background:#bde6ee;
   }
 
-  .call-button {
-    border-radius: 20px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    font-weight: 600;
-    text-transform: uppercase;
+  .callout-content {
+    z-index:90;
+    position:relative;
+    margin-top:25vh;
+    color: $dark-gray;
+    h1 {
+      text-transform: uppercase;
+      font-weight:bold;
+      color: $secondary-color;
+    }
+    p {
+      font-size:22px;
+    }
+  }
+
+  .main-plane {
+    margin-left:-160px;
+    margin-top:-80px;
+    max-width:calc(100% + 300px);
+    width:calc(100% + 300px);
   }
 
 

@@ -1,42 +1,24 @@
 <template>
   <div id="app">
-    <div class="off-canvas position-right" id="offCanvas" data-off-canvas>
-      <ul class="sidebar-menu" data-close="offCanvas">
-        <li><router-link to="/" exact>Home</router-link></li>
-        <li><router-link to="/reveal" exact>Reveal</router-link></li>
-        <li><router-link to="/slider" exact>Slider</router-link></li>
-        <li><router-link to="/tooltip" exact>Tooltip</router-link></li>
-        <li><router-link to="/dropdown-menu" exact>Dropdown Menu</router-link></li>
-        <li><router-link to="/drilldown-menu" exact>Drilldown Menu</router-link></li>
-        <li><router-link to="/accordion-menu" exact>Accordion Menu</router-link></li>
-        <li><router-link to="/magellan" exact>Magellan</router-link></li>
-        <li><router-link to="/accordion" exact>Accordion</router-link></li>
-        <li><router-link to="/dropdown" exact>Dropdown</router-link></li>
-        <li><router-link to="/tabs" exact>Tabs</router-link></li>
-        <li><router-link to="/orbit" exact>Orbit</router-link></li>
-      </ul>          
-    </div>
-    <div class="off-canvas-content grid-container full" data-off-canvas-content>
+
+    <div class="grid-container full">
       <div class="top-bar grid-x">
         <div class="cell small-6 shrink">
-          <ul class="menu">
-            <li class="logo">
-              <router-link to="/">Vue-Foundation</router-link>
-            </li>
-          </ul>
+              <router-link to="/" class="logo"><img src="./assets/img/logo.svg" alt="Oracle Intern Experience"></router-link>
         </div>
         <div class="cell small-6 shrink">
-          <ul class="menu expanded">
-            <li>
-              <a class="button small menu-button" data-toggle="offCanvas">Menu</a>
-            </li>
+          <ul class="menu align-right">
+            <li><router-link to="/meet-the-team" exact>Meet the Team</router-link></li>
+            <li><router-link to="/about-oracle" exact>About Oracle</router-link></li>
+            <li><router-link to="/achieve-success" exact>Achieve Success</router-link></li>
+            <li><router-link to="/helpful-resources" exact>Helpful Resources</router-link></li>
           </ul>
         </div>
       </div>
       <div class="content-wrapper">
         <router-view></router-view>
       </div>
-    
+
     </div>
   </div>
 </template>
@@ -44,56 +26,30 @@
 <script>
 export default {
   name: 'app',
-  mounted() {
-    this.offCanvas = new Foundation.OffCanvas($('#offCanvas'));
-  },
 };
 </script>
 
 
 
-<style lang="scss">  
+<style lang="scss">
   @import './styles/global';
-  
-  // Chrome Reset 
+
+  // Chrome Reset
   a:focus {
     outline: none;
   }
 
-  .logo, .logo a {
-    color: $white;
-    font-weight: normal;
-    background-color: inherit;
+  .logo img {
+    width:300px;
+    height:auto;
+  }
+
+  .top-bar {
+    padding:0 2rem;
   }
 
   .top-bar,.top-bar ul {
-    background-color: #41b883;
+    background-color: #fff;
   }
 
-  li a.menu-button {
-    border-radius: 20px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; 
-    font-weight: 600;
-    text-transform: uppercase;
-    display: inline-block;
-    float: right;
-  }
-
-  .content-wrapper {
-    padding: 0.75rem 0;
-  }
-
-  .sidebar-menu {
-    @include menu-base();
-    @include menu-direction(vertical);
-    a {
-      color: $secondary-color;
-      font-weight: normal;
-    }
-    a.active {
-      font-weight: 600;
-      color: $primary-color;
-    }
-  }
 </style>

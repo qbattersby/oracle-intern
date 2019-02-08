@@ -3,17 +3,10 @@ import Router from 'vue-router';
 
 // Components
 import Home from '@/components/Home';
-import Reveal from '@/components/Reveal';
-import Slider from '@/components/Slider';
-import Tooltip from '@/components/Tooltip';
-import DropdownMenu from '@/components/DropdownMenu';
-import DrilldownMenu from '@/components/DrilldownMenu';
-import AccordionMenu from '@/components/AccordionMenu';
-import Magellan from '@/components/Magellan';
-import Accordion from '@/components/Accordion';
-import Dropdown from '@/components/Dropdown';
-import Tabs from '@/components/Tabs';
-import Orbit from '@/components/Orbit';
+import Team from '@/components/Team';
+import About from '@/components/About';
+import Success from '@/components/Success';
+import Resources from '@/components/Resources';
 
 Vue.use(Router);
 
@@ -25,18 +18,31 @@ export default new Router({
       name: 'home',
       path: '/',
       component: Home,
-      meta: { title: 'Dashboard' },
+      meta: { title: 'Home' },
     },
-    { name: 'reveal', path: '/reveal', component: Reveal },
-    { name: 'slider', path: '/slider', component: Slider },
-    { name: 'tooltip', path: '/tooltip', component: Tooltip },
-    { name: 'dropdown-menu', path: '/dropdown-menu', component: DropdownMenu },
-    { name: 'drilldown-menu', path: '/drilldown-menu', component: DrilldownMenu },
-    { name: 'accordion-menu', path: '/accordion-menu', component: AccordionMenu },
-    { name: 'magellan', path: '/magellan', component: Magellan },
-    { name: 'accordion', path: '/accordion', component: Accordion },
-    { name: 'dropdown', path: '/dropdown', component: Dropdown },
-    { name: 'tabs', path: '/tabs', component: Tabs },
-    { name: 'orbit', path: '/orbit', component: Orbit },
+    {
+      name: 'team',
+      path: '/meet-the-team',
+      component: Team,
+      meta: { title: 'Meet the team' },
+    },
+    {
+      name: 'about',
+      path: '/about-oracle',
+      component: About,
+      meta: { title: 'About' },
+    },
+    {
+      name: 'success',
+      path: '/achieve-success',
+      component: Success,
+      meta: { title: 'Achieve Success' },
+    },
+    {
+      name: 'resources',
+      path: '/helpful-resources',
+      component: Resources,
+      meta: { title: 'Helpful Resources' },
+    },
   ],
 });
