@@ -30,7 +30,7 @@
             <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link>
           </div>
           <div class="cell medium-6">
-              <silentbox-single src="../assets/img/sample.mp4">
+              <silentbox-single src="../assets/media/sample.mp4">
                 <img src="../assets/img/video-test.jpg">
               </silentbox-single>
           </div>
