@@ -1,0 +1,84 @@
+{
+  "_from": "vue-cal",
+  "_id": "vue-cal@1.35.1",
+  "_inBundle": false,
+  "_integrity": "sha512-v2Dsq4JiEB5bMUDcpSlIKQA+lE8K+86P4t5esGcwDD/sMDFZVDbTx5lhB6i80UqDWmYoqVsdWDtMOSfWH9GT3Q==",
+  "_location": "/vue-cal",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-cal",
+    "name": "vue-cal",
+    "escapedName": "vue-cal",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-cal/-/vue-cal-1.35.1.tgz",
+  "_shasum": "6491a9cc73a70c85fe59e704fccb610ec5fe78d6",
+  "_spec": "vue-cal",
+  "_where": "/c/Users/qbatt/dev/oracle-interns",
+  "author": {
+    "name": "Antoni Andre",
+    "email": "antoniandre.web@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/antoniandre/vue-cal/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
+  "deprecated": false,
+  "description": "A Vue JS full calendar, no dependency, no BS. :metal:",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.1",
+    "@vue/eslint-config-standard": "^3.0.5",
+    "node-sass": "^4.11.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.0.1",
+    "simple-syntax-highlighter": "^1.0.4",
+    "vue": "^2.5.22",
+    "vue-cli-plugin-vuetify": "^0.2.1",
+    "vue-scrollto": "^2.13.0",
+    "vue-template-compiler": "^2.5.22",
+    "vuetify": "^1.4.3"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/antoniandre/vue-cal#readme",
+  "keywords": [
+    "full calendar",
+    "calendar",
+    "vue",
+    "vuejs",
+    "ui"
+  ],
+  "license": "MIT",
+  "main": "./dist/vuecal.common.js",
+  "name": "vue-cal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniandre/vue-cal.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name vuecal ./src/components/vue-cal/index.vue --dest ./dist",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "unpkg": "dist/vuecal.umd.min.js",
+  "version": "1.35.1"
+}

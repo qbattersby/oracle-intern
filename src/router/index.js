@@ -7,6 +7,7 @@ import Team from '@/components/Team';
 import About from '@/components/About';
 import Success from '@/components/Success';
 import Resources from '@/components/Resources';
+import Orbit from '@/components/Tooltip';
 
 Vue.use(Router);
 
@@ -42,6 +43,12 @@ export default new Router({
       name: 'resources',
       path: '/helpful-resources',
       component: Resources,
+      meta: { title: 'Helpful Resources' },
+    },
+    {
+      name: 'orbit',
+      path: '/orbit',
+      component: Orbit,
       meta: { title: 'Helpful Resources' },
     },
   ],

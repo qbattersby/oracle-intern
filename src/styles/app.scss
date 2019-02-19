@@ -5,8 +5,252 @@
 @import "./settings";
 // Load Foundation
 @import "~foundation-sites/scss/foundation";
+// Load MUI
+@import "~motion-ui/src/motion-ui";
+
+// General styling
+
+.subnav {
+  background: $secondary-color;
+  color:white;
+  padding:25px 0;
+  font-size:15px;
+  a {
+    color:white;
+  }
+}
+
+.button {
+  text-transform: uppercase;
+}
+
+section {
+  padding-top: 7rem;
+  padding-bottom:7rem;
+}
 
 
+.dark-bg {
+  background: $secondary-color;
+  color:white;
+  .button {
+    background: $tertiary-color;
+    &:hover {
+      color: $secondary-color;
+      background:white;
+    }
+  }
+}
+
+.light-bg {
+  background: $tertiary-color;
+  color:white;
+  .button {
+    background: $secondary-color;
+    &:hover {
+      color: $secondary-color;
+      background:white;
+    }
+  }
+}
+
+.padded-right {
+  padding-right:23%;
+  @include breakpoint(large down) {
+    padding-right:10%;
+  }
+}
+
+.padded-left {
+  padding-left:23%;
+  @include breakpoint(large down) {
+    padding-left:10%;
+  }
+}
+
+.gray-bg {
+  background: $light-gray;
+  h2, h3 {
+    color:$secondary-color;
+  }
+}
+
+
+.callout {
+  height: calc(100vh - 55px);
+  background-color:#bde6ee;
+  overflow:hidden;
+}
+
+.callout-content {
+  z-index:90;
+  position:relative;
+  margin-top:20vh;
+  color: $dark-gray;
+  h1 {
+    font-weight:bold;
+    color: $secondary-color;
+  }
+  p {
+    font-size:22px;
+    @include breakpoint(large down) {
+      font-size:18px;
+    }
+  }
+
+  .button.secondary:hover {
+    background: $tertiary-color;
+  }
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+// Calendar Global
+
+.vuecal {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin-top:40px;
+  .vuecal__cell {
+  height: 16.66667%;
+  }
+  .vuecal__arrow {
+    background:white;
+    padding:0px 12px 8px;
+    transition: all 0.25s ease;
+    &:hover {
+      background: $secondary-color;
+      color:white;
+    }
+  }
+  .vuecal__arrow i.angle {
+    padding: 0.18em;
+    line-height:15px;
+  }
+  .vuecal__arrow--prev {
+    padding-left:15px;
+  }
+  .vuecal__arrow--next {
+    padding-right: 15px;
+  }
+  ul {
+    margin:0 !important;
+    padding: 0 !important;
+  }
+  .vuecal__weekdays-headings {
+    text-transform: uppercase;
+    background: $tertiary-color;
+    color:white;
+    font-size:15px;
+  }
+  .vuecal__heading {
+    border-left: 1px solid white;
+  }
+  .vuecal__cell-date {
+    top:8px;
+    left:8px;
+    position:absolute;
+    padding:4px 6px;
+  }
+  .vuecal__cell.current, .vuecal__cell.today {
+    background: none;
+    .vuecal__cell-date {
+      color:white;
+      background:$tertiary-color;
+    }
+  }
+  .vuecal__cell.selected {
+    background: #fcfcfc;
+    &.vuecal__cell--has-events {
+      background: rgba(222, 224, 224, 0.7);
+    }
+  }
+  .vuecal__cell--has-events {
+    background: rgba(222,224,224,0.8);
+
+    .vuecal__cell-date {
+      color: $tertiary-color;
+      font-weight:bold;
+    }
+  }
+  .vuecal__event--focus {
+    box-shadow: none;
+  }
+  .vuecal__title {
+    background:transparent;
+    color: $tertiary-color;
+    margin-bottom:15px;
+  }
+  .vuecal__body {
+    background:white;
+  }
+  .vuecal__no-event {display: none;}
+  .vuecal__event {
+    background:none;
+    color: #4e5052;
+    padding-left:8px;
+    padding-right:30px;
+    margin-top:auto;
+    cursor: pointer;
+  }
+
+}
+
+.vuecal--month-view .vuecal__cell-content {
+  justify-content: flex-end;
+  padding-bottom:8px;
+}
+
+
+.tooltip {
+  box-shadow: 0px 3px 22px 0px rgba(0,0,0,0.45);
+  font-size:15px;
+  line-height:17px;
+  pointer-events: none;
+  p {
+    line-height:17px;
+    margin-bottom:8px;
+    margin-top:0;
+  }
+  h5 {
+    font-size:15px;
+    font-weight:bold;
+    color: $secondary-color;
+    margin-bottom:8px;
+    margin-top:0;
+  }
+}
+
+// Remove ellipses...
+.vuecal--short-events .vuecal__event-title {
+  white-space: normal;
+  padding: 0 8px;
+}
+
+
+
+// Bird
+#bird {
+  width:150px;
+  height:auto;
+  @include breakpoint(small only) {
+    width:75px;
+  }
+}
+
+#wing {
+  animation: flap 2s ease infinite;
+}
+
+
+// Plane
+
+.main-plane {
+  animation: flyin 1.3s forwards;
+}
 
 
 // Clouds
@@ -16,40 +260,92 @@
 }
 
 .x1 {
-  -webkit-animation: movecloudsshort 30s linear infinite;
+ animation: movecloudsshort 25s linear infinite;
   width:195px;
   height:auto;
   top:10%;
   left:15%;
+  @include breakpoint(large down) {
+    width:125px;
+  }
 }
 
 .x2 {
-  -webkit-animation: moveclouds 35s linear infinite;
+  animation: moveclouds 30s linear infinite;
   width:335px;
   height:auto;
   top:20%;
   left:70%;
+  @include breakpoint(large down) {
+    width:265px;
+  }
 }
 
 .x3 {
-  -webkit-animation: moveclouds 40s linear infinite;
+  animation: moveclouds 35s linear infinite;
   width:432px;
   height:auto;
-  bottom:20%;
+  bottom:25%;
   left:55%;
+  @include breakpoint(large down) {
+    width:360px;
+  }
 }
 
 
-
 // Animations
-@-webkit-keyframes moveclouds {
+@keyframes moveclouds {
   0% {margin-left: 0px; opacity:0;}
   2% {opacity:1;}
   100% {margin-left: -2000px;}
 }
 
-@-webkit-keyframes movecloudsshort {
+@keyframes movecloudsshort {
   0% {margin-left: 0px; opacity:0;}
   2% {opacity:1;}
   100% {margin-left: -800px;}
 }
+
+@keyframes flyin {
+  0% {transform: translateX(-150%)}
+  20% {transform: translateX(-150%)}
+  100% {transform: translateX(0)}
+}
+
+@keyframes flap {
+  0% { transform: scale(1, 1); }
+  50% {transform: scale(1.1, 0.25) rotate(6deg) translate(-5px, 25px);}
+  100% { transform: scale(1, 1); }
+}
+
+@keyframes flyby {
+  0% {margin-left: -150px; }
+  100% {margin-left: calc(100vw + 200px);}
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes floatup {
+  0% {transform: translateY(0)}
+  100% {transform: translateY(-290%)}
+}
+
+.mui-fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+

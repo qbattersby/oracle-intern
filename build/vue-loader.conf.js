@@ -10,6 +10,7 @@ module.exports = {
     extract: isProduction
   }),
   transformToRequire: {
+    'silentbox-single': 'src',
     video: 'src',
     source: 'src',
     img: 'src',
