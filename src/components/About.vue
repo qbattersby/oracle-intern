@@ -43,7 +43,7 @@
         </div>
 
 
-        <div id="orbit" class="orbit" role="region" aria-label="Brands" data-orbit>
+        <div id="orbit" class="orbit" role="region" aria-label="Brands" data-orbit data-pause-on-hover="false">
           <ul class="orbit-container">
             <li class="is-active orbit-slide">
               <div class="brands grid-x grid-margin-x small-up-2 medium-up-3 large-up-4 align-center">
@@ -189,11 +189,12 @@ export default {
   mounted() {
     this.orbit = new Foundation.Orbit($('#orbit'), {
       // These options can be declarative using the data attributes
-      timerDelay: 2000,
+      timerDelay: 3000,
       animInFromLeft: 'fade-in',
       animInFromRight: 'fade-in',
-      animOutToLeft: 'slide-out-up',
-      animOutToRight: 'slide-out-up',
+      animOutToLeft: 'fade-out',
+      animOutToRight: 'fade-out',
+
 
     });
   },

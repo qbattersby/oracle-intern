@@ -263,7 +263,8 @@
                      default-view="month"
                      events-on-month-view="short"
                      :events="events"
-                     :on-event-click="onEventClick">
+                     @event-mouse-enter="tip"
+                     @event-focus="tip">
             </vue-cal>
 
           </div>
@@ -308,12 +309,8 @@
       };
     },
     methods: {
-      onEventClick(event, e) {
-        this.selectedEvent = event;
-        this.tooltip('toggle');
-
-        // Prevent navigating to narrower view (default vue-cal behavior).
-        e.stopPropagation();
+      tip() {
+        this.tooltip = $('.has-tip').foundation();
       },
     },
   };
