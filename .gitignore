@@ -2,6 +2,7 @@
 node_modules/
 dist/
 docs/
+src/components/foundation-modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
