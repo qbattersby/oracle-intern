@@ -205,7 +205,7 @@ section {
 }
 
 .vuecal--month-view .vuecal__cell-content {
-  justify-content: flex-end;
+  justify-content: flex-end !important;
   padding-bottom:8px;
 }
 
@@ -231,8 +231,8 @@ section {
 
 // Remove ellipses...
 .vuecal--short-events .vuecal__event-title {
-  white-space: normal;
-  padding: 0 8px;
+  white-space: normal !important;
+  padding: 0 8px !important;
 }
 
 
