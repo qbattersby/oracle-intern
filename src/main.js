@@ -3,12 +3,11 @@
 
 import Vue from 'vue';
 import VueSilentbox from 'vue-silentbox';
-import VueScrollTo from 'vue-scrollto';
 import './foundation';
 import App from './App';
 import router from './router';
 
-Vue.use(VueSilentbox, VueScrollTo);
+Vue.use(VueSilentbox);
 
 /* eslint-disable*/
 
