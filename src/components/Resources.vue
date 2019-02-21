@@ -565,6 +565,13 @@
     padding-bottom:8px;
   }
 
+  // Remove ellipses...
+  .vuecal--short-events .vuecal__event-title {
+    white-space: normal;
+    padding: 0 8px;
+  }
+
+
 
 
 
