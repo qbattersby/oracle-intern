@@ -32,57 +32,69 @@
               members for help or advice.</p>
           </div>
         </div>
-        <div class="grid-x grid-margin-x align-center class-group">
-          <div class="cell auto">
-            <div class="card">
-              <img src="../assets/img/laren-roberge.jpg">
-              <div class="card-section">
-                <h5>Lauren Roberge</h5>
-                <p>Marketing Specialist</p>
-                <p>Cal Poly, San Luis Obispo</p>
+        <div class="class-group">
+
+
+          <slick ref="slick" :options="slickOptionsClass">
+
+            <div class="slide">
+              <div class="card">
+                <img src="../assets/img/laren-roberge.jpg">
+                <div class="card-section">
+                  <h5>Lauren Roberge</h5>
+                  <p>Marketing Specialist</p>
+                  <p>Cal Poly, San Luis Obispo</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="cell auto">
-            <div class="card">
-              <img src="../assets/img/megan-leung.jpg">
-              <div class="card-section">
-                <h5>Lauren Roberge</h5>
-                <p>Marketing Specialist</p>
-                <p>Cal Poly, San Luis Obispo</p>
+            <div class="slide">
+              <div class="card">
+                <img src="../assets/img/megan-leung.jpg">
+                <div class="card-section">
+                  <h5>Lauren Roberge</h5>
+                  <p>Marketing Specialist</p>
+                  <p>Cal Poly, San Luis Obispo</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="cell auto">
-            <div class="card">
-              <img src="../assets/img/alicia-breyer.jpg">
-              <div class="card-section">
-                <h5>Lauren Roberge</h5>
-                <p>Marketing Specialist</p>
-                <p>Cal Poly, San Luis Obispo</p>
+            <div class="slide">
+              <div class="card">
+                <img src="../assets/img/alicia-breyer.jpg">
+                <div class="card-section">
+                  <h5>Lauren Roberge</h5>
+                  <p>Marketing Specialist</p>
+                  <p>Cal Poly, San Luis Obispo</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="cell auto">
-            <div class="card">
-              <img src="../assets/img/nathan-bao.jpg">
-              <div class="card-section">
-                <h5>Lauren Roberge</h5>
-                <p>Marketing Specialist</p>
-                <p>Cal Poly, San Luis Obispo</p>
+            <div class="slide">
+              <div class="card">
+                <img src="../assets/img/nathan-bao.jpg">
+                <div class="card-section">
+                  <h5>Lauren Roberge</h5>
+                  <p>Marketing Specialist</p>
+                  <p>Cal Poly, San Luis Obispo</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="cell auto">
-            <div class="card">
-              <img src="../assets/img/elizabeth-lee.jpg">
-              <div class="card-section">
-                <h5>Lauren Roberge</h5>
-                <p>Marketing Specialist</p>
-                <p>Cal Poly, San Luis Obispo</p>
+            <div class="slide">
+              <div class="card">
+                <img src="../assets/img/elizabeth-lee.jpg">
+                <div class="card-section">
+                  <h5>Lauren Roberge</h5>
+                  <p>Marketing Specialist</p>
+                  <p>Cal Poly, San Luis Obispo</p>
+                </div>
               </div>
             </div>
-          </div>
+
+
+
+
+          </slick>
+
+
+
 
 
         </div>
@@ -110,7 +122,8 @@
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/megan-leung.jpg">
+                  <img src="../assets/img/megan-leung.jpg" data-src="../assets/img/nathan-bao.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
                   <div class="card-section">
                     <h5>Lauren Roberge</h5>
                     <p>Marketing Specialist</p>
@@ -122,7 +135,8 @@
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/alicia-breyer.jpg">
+                  <img src="../assets/img/alicia-breyer.jpg" data-src="../assets/img/nathan-bao.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
                   <div class="card-section">
                     <h5>Lauren Roberge</h5>
                     <p>Marketing Specialist</p>
@@ -133,41 +147,8 @@
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/nathan-bao.jpg">
-                  <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="slide">
-                <div class="card">
-                  <img src="../assets/img/elizabeth-lee.jpg">
-                  <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="slide">
-                <div class="card">
-                  <img src="../assets/img/alicia-breyer.jpg">
-                  <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="slide">
-                <div class="card">
-                  <img src="../assets/img/nathan-bao.jpg">
+                  <img src="../assets/img/nathan-bao.jpg" data-src="../assets/img/placeholder2.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
                   <div class="card-section">
                     <h5>Lauren Roberge</h5>
                     <p>Marketing Specialist</p>
@@ -179,7 +160,45 @@
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/elizabeth-lee.jpg">
+                  <img src="../assets/img/elizabeth-lee.jpg" data-src="../assets/img/placeholder3.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
+                  <div class="card-section">
+                    <h5>Lauren Roberge</h5>
+                    <p>Marketing Specialist</p>
+                    <p>Cal Poly, San Luis Obispo</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/alicia-breyer.jpg" data-src="../assets/img/placeholder5.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
+                  <div class="card-section">
+                    <h5>Lauren Roberge</h5>
+                    <p>Marketing Specialist</p>
+                    <p>Cal Poly, San Luis Obispo</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/nathan-bao.jpg" data-src="../assets/img/placeholder2.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
+                  <div class="card-section">
+                    <h5>Lauren Roberge</h5>
+                    <p>Marketing Specialist</p>
+                    <p>Cal Poly, San Luis Obispo</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/elizabeth-lee.jpg" data-src="../assets/img/placeholder1.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
                   <div class="card-section">
                     <h5>Lauren Roberge</h5>
                     <p>Marketing Specialist</p>
@@ -209,6 +228,24 @@
     mounted() {
       this.scroll = new Foundation.SmoothScroll($('#team-nav'));
     },
+    methods: {
+      hover(event) {
+        const targetImage = event.target;
+        const source = targetImage.src;
+        const newSource = targetImage.dataset.src;
+
+        targetImage.src = newSource;
+        targetImage.dataset.src = source;
+      },
+      hoverOut(event) {
+        const targetImage = event.target;
+        const source = targetImage.src;
+        const newSource = targetImage.dataset.src;
+
+        targetImage.src = newSource;
+        targetImage.dataset.src = source;
+      },
+    },
     data() {
       return {
         msg: '',
@@ -217,6 +254,46 @@
           autoplay: true,
           autoplaySpeed: 2000,
           dots: true,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                dots: false,
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 700,
+              settings: {
+                arrows: false,
+                dots: false,
+                slidesToShow: 1,
+              },
+            },
+          ],
+        },
+        slickOptionsClass: {
+          slidesToShow: 5,
+          autoplay: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                dots: false,
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 700,
+              settings: {
+                arrows: false,
+                dots: false,
+                slidesToShow: 1,
+              },
+            },
+          ],
         },
       };
     },
@@ -305,6 +382,15 @@
 
   .class-group {
     margin-top:50px;
+    width:100%;
+    .card {
+      margin: 0 10px;
+    }
+    @include breakpoint(medium down) {
+      width:80%;
+      margin-left:auto;
+      margin-right:auto;
+    }
   }
 
   .card-section {
@@ -325,23 +411,18 @@
     }
   }
 
+  .card img {
+    width:100%;
+  }
+
   .mentor-group {
     width:80%;
-    overflow:hidden;
     margin: 50px auto 0;
     .card {
       margin: 0 10px;
     }
-    .slick-prev  {
-      left: -50px;
-      background: url('../assets/img/prev.svg') top left !important;
-      background-color: black;
-
-    }
-    .slick-next {
-      right: -50px;
-      background: url('../assets/img/next.svg') top left !important;
-      background-color: black;
+    @include breakpoint(medium down) {
+      width:80%;
     }
   }
 

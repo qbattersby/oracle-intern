@@ -560,6 +560,11 @@
     min-height:105vh;
   }
 
+  .vuecal--month-view .vuecal__cell-content {
+    justify-content: flex-end;
+    padding-bottom:8px;
+  }
+
 
 
 

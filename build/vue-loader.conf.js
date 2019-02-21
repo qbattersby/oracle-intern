@@ -13,7 +13,7 @@ module.exports = {
     'silentbox-single': 'src',
     video: 'src',
     source: 'src',
-    img: 'src',
+    img: ['src', 'data-src'],
     image: 'xlink:href'
   }
 }
