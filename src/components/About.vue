@@ -230,7 +230,7 @@ export default {
   }
 
   .callout-content {
-    margin-top:30vh;
+    margin-top:27vh;
     opacity:0;
     animation:fadeIn ease-in 1;
     animation-fill-mode:forwards;
@@ -243,7 +243,7 @@ export default {
 
   #bird {
     position:absolute;
-    top:25vh;
+    top:23vh;
     animation: flyby 40s linear infinite;
     @include breakpoint(small only) {
       top:20vh;
@@ -251,8 +251,12 @@ export default {
     }
   }
 
+  .x1, .x2 {
+    animation: unset;
+  }
+
   .x3 {
-    animation: moveclouds 45s linear infinite;
+    animation: unset;
     width:142px;
     height:auto;
     bottom:25%;

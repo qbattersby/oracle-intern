@@ -107,16 +107,18 @@
     <section class="interns-grid" id="interns">
       <div class="grid-container fluid">
         <div class="grid-x align-stretch">
-          <div class="cell medium-4 grid-callout dark-bg">
+          <div class="cell small-12 medium-6 large-4 grid-callout dark-bg">
                 <div class="grid-callout-copy">
                   <h3>Get Ready to Soar. Meet your Fellow Interns.</h3>
 
                   <p>Introducing your Summer 2019 class—where each intern brings to the team a unique set of skills, background, and a fresh perspective. Get to know your fellow interns this summer for the ultimate intern experience.</p>
                 </div>
           </div>
-          <div class="cell medium-8">
+
+
+          <div class="cell small-12 medium-6 large-8">
             <div class="grid-x align-stretch">
-              <div class="cell medium-3 small-2">
+              <div class="cell large-3 medium-6 small-4">
                 <div class="intern" style="background-image: url(../../static/face1.jpg)">
                   <div class="intern-info brand-darkorange">
                     <div class="details">
@@ -140,7 +142,7 @@
                   </div>
                 </div>
               </div>
-              <div class="cell medium-3 small-2">
+              <div class="cell large-3 small-4">
                 <div class="intern" style="background-image: url(../../static/face2.jpg)">
                   <div class="intern-info brand-darkorange">
                     <div class="details">
@@ -164,7 +166,7 @@
                   </div>
                 </div>
               </div>
-              <div class="cell medium-3 small-2">
+              <div class="cell large-3 small-4">
                 <div class="intern" style="background-image: url(../../static/face1.jpg)">
                   <div class="intern-info brand-blue">
                     <div class="details">
@@ -188,7 +190,7 @@
                   </div>
                 </div>
               </div>
-              <div class="cell medium-3 small-2">
+              <div class="cell large-3 small-4">
                 <div class="intern" style="background-image: url(../../static/face2.jpg)">
                   <div class="intern-info brand-darkblue">
                     <div class="details">
@@ -212,7 +214,7 @@
                   </div>
                 </div>
               </div>
-              <div class="cell medium-3 small-2">
+              <div class="cell large-3 small-4">
                 <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
                   <div class="intern-info brand-green">
                     <div class="details">
@@ -236,7 +238,7 @@
                   </div>
                 </div>
               </div>
-              <div class="cell medium-3 small-2">
+              <div class="cell large-3 small-4">
                 <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
                   <div class="intern-info brand-darkgreen">
                     <div class="details">
@@ -260,7 +262,7 @@
                   </div>
                 </div>
               </div>
-              <div class="cell medium-3 small-2">
+              <div class="cell large-3 small-4">
                 <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
                   <div class="intern-info brand-darkburgundy">
                     <div class="details">
@@ -284,7 +286,7 @@
                   </div>
                 </div>
               </div>
-              <div class="cell medium-3 small-2">
+              <div class="cell large-3 small-4">
                 <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
                   <div class="intern-info brand-burgundy">
                     <div class="details">
@@ -308,13 +310,12 @@
                   </div>
                 </div>
               </div>
-
-
-
-
-
             </div>
           </div>
+
+
+
+
           <div class="cell medium-2">
             <div class="intern" style="background-image: url(../../static/face2.jpg)">
               <div class="intern-info brand-darkorange">
@@ -873,9 +874,12 @@
     @include breakpoint(large only) {
       background-position: bottom left;
     }
-    @include breakpoint(medium down) {
+    @include breakpoint(large down) {
       background-position: bottom center;
       background-size: cover;
+      .x3 {
+        display:none;
+      }
     }
   }
 
@@ -883,16 +887,20 @@
     background-image: url('../assets/img/team-footer-bg.svg');
     background-size: cover;
     background-repeat:no-repeat;
-    background-position: bottom right;
+    background-position: bottom left;
     position:relative;
     padding-bottom:280px;
     background-color: #eeefef;
+    h2, h3 {
+      color:$secondary-color;
+    }
     @include breakpoint(large only) {
       background-position: bottom left;
     }
     @include breakpoint(medium down) {
-      background-position: bottom right;
+      background-position: bottom left;
       background-size: cover;
+      padding-bottom:350px;
     }
   }
 
@@ -906,11 +914,15 @@
     @include breakpoint(small only) {
       margin-top:23vh;
     }
+    @include breakpoint(large down) {
+      margin-top:20vh;
+      width:70%;
+    }
   }
 
 
   .x1 {
-    animation: movecloudsshort 50s linear infinite;
+    animation: movecloudsshort 90s linear infinite;
     width:195px;
     height:auto;
     top:8%;
@@ -921,7 +933,7 @@
   }
 
   .x2 {
-    animation: moveclouds 60s linear infinite;
+    animation: moveclouds 110s linear infinite;
     width:300px;
     height:auto;
     top:20%;
@@ -932,7 +944,7 @@
   }
 
   .x3 {
-    animation: moveclouds 60s linear infinite;
+    animation: moveclouds 110s linear infinite;
     width: 132px;
     height: auto;
     bottom: 30%;
@@ -965,11 +977,13 @@
       margin:0;
       font-size:15px;
       color: $tertiary-color;
+      font-style: italic;
     }
     p:nth-of-type(2) {
       margin-bottom:0;
-      margin-top:10px;
+      margin-top:5px;
       font-size:15px;
+      font-style: italic;
     }
   }
 
@@ -1048,6 +1062,7 @@
     height:16.66667vw;
     overflow:hidden;
     box-sizing: border-box;
+
     &:hover {
       .intern-info {
         opacity:1;
@@ -1124,6 +1139,12 @@
     background-repeat: no-repeat;
     background-position: 5% 15%;
     background-size:40px 40px;
+    @include breakpoint(medium down) {
+      padding:20px 20px 20px 13%;
+      height:auto;
+      background-size:20px 20px;
+      background-position:3% 7%;
+    }
     p:last-of-type {
       margin-bottom:0;
     }
@@ -1135,6 +1156,14 @@
   .grid-callout {
     padding:0px 7%;
     display:flex;
+
+    @include breakpoint(large down) {
+      padding:20px;
+      font-size:15px;
+      h3 {
+        font-size:23px;
+      }
+    }
   }
 
   .grid-callout-copy {

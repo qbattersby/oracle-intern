@@ -89,5 +89,9 @@ export default {
     animation-delay: 1.4s;
   }
 
+  .callout-content {
+    width:100%;
+  }
+
 
 </style>

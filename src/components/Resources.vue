@@ -70,7 +70,7 @@
             </a>
             <div class="cell">
               <img src="../assets/img/ithelp.jpg">
-              <div class="resource-content">
+              <div class="resource-content" style="width:100%;">
                 <h5>IT Help Desk</h5>
                 <p>1 800-972-4664</p>
               </div>
