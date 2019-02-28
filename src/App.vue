@@ -29,8 +29,19 @@
 
       <footer>
         <div class="grid-x">
-          <div class="cell">
+          <div class="cell shrink small-12 medium-3">
             &copy; Oracle {{ new Date().getFullYear() }}
+          </div>
+          <div class="cell auto small-12 medium-9">
+
+            <ul class="menu footer-menu align-right">
+              <li><a href="#">About Oracle</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Legal Notices</a></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Privacy Right</a></li>
+            </ul>
+
           </div>
         </div>
       </footer>
@@ -46,6 +57,19 @@
       return {
         seen: false,
       };
+    },
+    mounted() {
+      const dtmScript = document.createElement('script');
+      dtmScript.setAttribute('src', 'https://www.oracle.com/asset/web/dtm/dtm-vendor.js');
+      dtmScript.setAttribute('language', 'JavaScript');
+      document.head.appendChild(dtmScript);
+
+
+      const dtmcustomScript = document.createElement('script');
+      const code = "var footer_type = 'custom';";
+      dtmcustomScript.setAttribute('type', 'text/javascript');
+      dtmcustomScript.appendChild(document.createTextNode(code));
+      document.head.appendChild(dtmcustomScript);
     },
   };
 </script>
@@ -92,6 +116,18 @@
   footer {
     padding: 1rem 1.3rem;
     font-size:14px;
+    @include breakpoint(small only) {
+
+      .footer-menu {
+        justify-content: normal;
+        line-height:1.5;
+        width:90%;
+        margin-left:-0.3rem;
+        li a {
+         margin-top:3px;
+        }
+      }
+    }
   }
 
   .silentbox-single {
@@ -154,6 +190,20 @@
   .top-bar ul.mobile-menu {
     background:#f9f9f9;
     padding: 30px 0;
+  }
+
+  .footer-menu {
+    margin-top:5px;
+    margin-bottom:0;
+    line-height:1.5;
+    a {
+      color: $body-font-color;
+      padding:0 0.3rem;
+      border-right: 1px solid $body-font-color;
+    }
+    li:last-of-type a {
+      border-right:none;
+    }
   }
 
 

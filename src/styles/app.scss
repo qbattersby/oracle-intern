@@ -99,6 +99,10 @@ section {
   margin-top:20vh;
   color: $dark-gray;
   width:47%;
+  @include breakpoint(medium down) {
+    width:90%;
+    margin-top:10vh;
+  }
   h1 {
     font-weight:bold;
     color: $secondary-color;

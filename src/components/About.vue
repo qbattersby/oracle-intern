@@ -237,7 +237,7 @@ export default {
     animation-duration:0.5s;
     animation-delay: 0.5s;
     @include breakpoint(small only) {
-      margin-top:23vh;
+      margin-top:10vh;
     }
   }
 
