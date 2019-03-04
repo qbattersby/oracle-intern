@@ -24,10 +24,7 @@
       <div class="callout-content grid-container text-center">
         <h1 class="callout-heading">About Oracle</h1>
           <div class="callout-copy">
-            <p>Oracle is the leading global provider of enterprise cloud computing. Every day we empower
-              businesses of all sizes on their journeys of digital transformation. Oracle Cloud provides
-              leading-edge capabilities in software as a service (SaaS), platform as a service (PaaS), infrastructure
-              as a service (IaaS), and data as a service (DaaS).</p>
+            <p>So what exactly does Oracle do? As the only full-stack cloud provider in the world, we empower businesses of all sizes on their journey to digital transformation.</p>
           </div>
         </div>
       </div>
@@ -38,7 +35,7 @@
         <div class="grid-x grid-margin-x">
           <div class="cell small-12 text-center">
             <h2>Work with Global Brands</h2>
-            <p>At Oracle you'll have the opportunity to power some of the world's largest and most recognizable brands. 437,000  customers in 175 countries worldwide trust Oracle to power their businesses. This includes some of the most innovative and trusted brands in the world. </p>
+            <p>At Oracle, you'll have the opportunity to help us power some of the world's largest and most recognizable brands. 437,000 customers in 175 countries worldwide trust Oracle to drive innovation for their businesses.</p>
           </div>
         </div>
 
@@ -46,60 +43,23 @@
         <div id="orbit" class="orbit" role="region" aria-label="Brands" data-orbit data-pause-on-hover="false">
           <ul class="orbit-container">
             <li class="is-active orbit-slide">
-              <div class="brands grid-x grid-margin-x small-up-2 medium-up-3 large-up-4 align-center">
-                <div class="cell">
-                    <img src="../assets/img/paypal.svg">
-                </div>
-                <div class="cell">
-                  <img src="../assets/img/google.svg">
-                </div>
+              <div class="brands grid-x grid-margin-x small-up-2 medium-up-3 large-up-3 align-center">
                 <div class="cell">
                   <img src="../assets/img/fedex.svg">
                 </div>
                 <div class="cell">
-                  <img src="../assets/img/paypal.svg">
+                  <img src="../assets/img/nike.svg">
                 </div>
                 <div class="cell">
-                  <img src="../assets/img/lululemon.svg">
+                  <img src="../assets/img/sony.svg">
                 </div>
                 <div class="cell">
-                  <img src="../assets/img/paypal.svg">
+                  <img src="../assets/img/starbucks.svg">
                 </div>
                 <div class="cell">
-                  <img src="../assets/img/hbo.svg">
-                </div>
-                <div class="cell">
-                  <img src="../assets/img/nestle.svg">
+                  <img src="../assets/img/dropbox.svg">
                 </div>
 
-              </div>
-            </li>
-            <li class="orbit-slide">
-              <div class="brands grid-x grid-margin-x small-up-2 medium-up-3 large-up-4 align-center">
-                <div class="cell">
-                  <img src="../assets/img/paypal.svg">
-                </div>
-                <div class="cell">
-                  <img src="../assets/img/google.svg">
-                </div>
-                <div class="cell">
-                  <img src="../assets/img/fedex.svg">
-                </div>
-                <div class="cell">
-                  <img src="../assets/img/hbo.svg">
-                </div>
-                <div class="cell">
-                  <img src="../assets/img/nestle.svg">
-                </div>
-                <div class="cell">
-                  <img src="../assets/img/paypal.svg">
-                </div>
-                <div class="cell">
-                  <img src="../assets/img/lululemon.svg">
-                </div>
-                <div class="cell">
-                  <img src="../assets/img/paypal.svg">
-                </div>
               </div>
             </li>
           </ul>
@@ -127,7 +87,7 @@
           <div class="cell medium-6 box-customers text-center">
             <div class="box-inner">
               <img src="../assets/img/globe.svg">
-              <h3>430,000+</h3>
+              <h3>437,000</h3>
               <p>Customers in <strong>175 <br>countries</strong></p>
             </div>
           </div>
@@ -138,18 +98,18 @@
               <div class="cell medium-6 box box-employees">
                 <div class="box-inner">
                   <img src="../assets/img/person.svg">
-                  <h3>38,000+</h3>
+                  <h3>137,000+</h3>
                   <p>Employees</p>
                 </div>
               </div>
               <div class="cell medium-6 box box-nine">
                 <div class="box-inner">
 
-                  <h3>#NINE</h3>
+                  <h3>#9</h3>
                   <p>In LinkedIn’s 50<br>
                     Top Companies<br>
-                    where US want to<br>
-                    work in 2019</p>
+                    Where the US Wants<br>
+                    To Work Now 2018</p>
                 </div>
               </div>
               <div class="cell medium-6 box box-students">
@@ -157,7 +117,8 @@
                   <h3>3.5M<br>
                     Students</h3>
                   <p>Supported annually<br>
-                    in 120 countries</p>
+                    in 120 countries through<br>
+					Oracle Education Foundation</p>
                 </div>
               </div>
               <div class="cell medium-6 box box-patents">

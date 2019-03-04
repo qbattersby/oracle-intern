@@ -6,14 +6,13 @@
       <div class="cloud x3"><img src="../assets/img/cloud3.svg"></div>
 
       <div class="callout-content grid-container">
-        <h1 class="callout-heading text-uppercase">Get Ready to Soar</h1>
-        <img class="main-plane" src="../assets/img/main-plane.svg" alt="Welcome to Oracle">
+        <h1 class="callout-heading text-uppercase">The Sky's The Limit</h1>
+        <img class="main-plane" src="../assets/img/main-plane.svg" alt="Welcome to Team Oracle">
 
         <div class="grid-x">
           <div class="callout-copy cell medium-7">
-            <p>Welcome to the Oracle Team. It’s time to push boundaries, breakdown tradition and reach the clouds.</p>
-            <p>Want to succeed at Oracle? We have everything you need right here. We’re excited about your future.</p>
-            <router-link to="/achieve-success" exact class="button secondary">Take a sneak peek</router-link>
+            <p>We’re excited about your future here. It’s time to push boundaries, challenge convention, and reach for the clouds.</p>
+            <p>Meet your team, hear from past interns, and learn what Oracle is all about. Everything you need is right here! </p>
           </div>
         </div>
       </div>
@@ -23,11 +22,8 @@
       <div class="grid-container">
         <div class="grid-x grid-margin-x align-middle">
           <div class="cell medium-6 padded-right">
-            <h3>Get the Complete Intern Experience.</h3>
-            <p>Watch our intern experience video to
-              get a real feel for what you can expect
-              from your internship.</p>
-            <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link>
+            <h3>Take a Sneak Peek.</h3>
+            <p>Check out the video to get a feel for what you can expect this summer.</p>
           </div>
           <div class="cell medium-6">
               <silentbox-single src="../assets/media/sample.mp4">
