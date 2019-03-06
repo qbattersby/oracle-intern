@@ -43,9 +43,9 @@
         <div id="orbit" class="orbit" role="region" aria-label="Brands" data-orbit data-pause-on-hover="false">
           <ul class="orbit-container">
             <li class="is-active orbit-slide">
-              <div class="brands grid-x grid-margin-x small-up-2 medium-up-3 large-up-3 align-center">
+              <div class="brands grid-x grid-margin-x small-up-2 medium-up-3 large-up-4 align-center">
                 <div class="cell">
-                  <img src="../assets/img/fedex.svg">
+                    <img src="../assets/img/fedex.svg">
                 </div>
                 <div class="cell">
                   <img src="../assets/img/nike.svg">
@@ -59,7 +59,6 @@
                 <div class="cell">
                   <img src="../assets/img/dropbox.svg">
                 </div>
-
               </div>
             </li>
           </ul>
@@ -74,10 +73,7 @@
         <div class="grid-x grid-margin-x">
           <div class="cell small-12 text-center">
             <h2>Scale and Innovation</h2>
-            <p>Oracle is the leading global provider of enterprise cloud computing. Every day we empower businesses
-              of all sizes on their journeys of digital transformation. Oracle Cloud provides leading-edge capabilities
-              in software as a service (SaaS), platform as a service (PaaS), infrastructure as a service (IaaS),
-              and data as a service (DaaS).</p>
+            <p>Oracle is the #1 provider of business software in the world. Our Cloud redefines how businesses modernize, innovate, and compete in a digital world. We deliver innovative and integrated cloud services that allow users and developers to build, deploy, and manage workloads seamlessly—in the cloud or on-premise.</p>
           </div>
         </div>
 
@@ -117,8 +113,9 @@
                   <h3>3.5M<br>
                     Students</h3>
                   <p>Supported annually<br>
-                    in 120 countries through<br>
-					Oracle Education Foundation</p>
+                    in 120 countries<br>
+					through the Oracle<br>
+					Education Foundation</p>
                 </div>
               </div>
               <div class="cell medium-6 box box-patents">

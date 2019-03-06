@@ -13,6 +13,7 @@
           <div class="callout-copy cell medium-7">
             <p>We’re excited about your future here. It’s time to push boundaries, challenge convention, and reach for the clouds.</p>
             <p>Meet your team, hear from past interns, and learn what Oracle is all about. Everything you need is right here! </p>
+			<!-- <router-link to="/achieve-success" exact class="button secondary">Take a sneak peek</router-link> -->
           </div>
         </div>
       </div>
@@ -24,6 +25,7 @@
           <div class="cell medium-6 padded-right">
             <h3>Take a Sneak Peek.</h3>
             <p>Check out the video to get a feel for what you can expect this summer.</p>
+			<!-- <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link> -->
           </div>
           <div class="cell medium-6">
               <silentbox-single src="../assets/media/sample.mp4">
