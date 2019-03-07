@@ -202,10 +202,10 @@ export default {
   #bird {
     position:absolute;
     top:23vh;
-    animation: flyby 40s linear infinite;
+    animation: flyby 30s linear infinite;
     @include breakpoint(small only) {
       top:20vh;
-      animation: flyby 20s linear infinite;
+      animation: flyby 15s linear infinite;
     }
   }
 
