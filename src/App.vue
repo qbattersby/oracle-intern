@@ -79,7 +79,6 @@
 <style lang="scss">
   @import './styles/global';
 
-  // Chrome Reset
   a:focus {
     outline: none;
   }
@@ -91,6 +90,9 @@
 
   .top-bar {
     padding:0 2rem;
+    position:fixed;
+    z-index:9999;
+    width:100%;
     .cell:first-of-type {
       position:relative;
     }

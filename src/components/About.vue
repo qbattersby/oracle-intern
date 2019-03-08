@@ -59,6 +59,9 @@
                 <div class="cell">
                   <img src="../assets/img/dropbox.svg">
                 </div>
+				<div class="cell">
+                  <img src="../assets/img/wellsfargo.svg">
+                </div>
               </div>
             </li>
           </ul>
@@ -202,10 +205,10 @@ export default {
   #bird {
     position:absolute;
     top:23vh;
-    animation: flyby 30s linear infinite;
+    animation: flyby 40s linear infinite;
     @include breakpoint(small only) {
       top:20vh;
-      animation: flyby 15s linear infinite;
+      animation: flyby 20s linear infinite;
     }
   }
 
@@ -234,6 +237,7 @@ export default {
       justify-content: center; /* align horizontal */
       align-items: center; /* align vertical */
       img {
+        max-width:95%;
         max-height:50px;
         @include breakpoint(small) {
          max-height:30px;
