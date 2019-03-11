@@ -28,9 +28,9 @@
 			<!-- <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link> -->
           </div>
           <div class="cell medium-6">
-              <silentbox-single src="https://video.oracle.com/detail/video/6011821841001">
+              <a class="silentbox-single" target="blank" href="https://video.oracle.com/detail/video/6011821841001">
                 <img src="../../static/internship-video-poster.jpg">
-              </silentbox-single>
+              </a>
           </div>
         </div>
       </div>
