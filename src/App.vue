@@ -134,7 +134,7 @@
 
   .silentbox-single {
     position: relative;
-    display: flex;
+    display: block;
     width: 100%;
     cursor: pointer;
     &:hover {
@@ -162,6 +162,12 @@
       width: 100%;
       height:auto;
     }
+  }
+
+  #silentbox-overlay__container {
+    width:80% !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
   }
 
   .page-enter-active {

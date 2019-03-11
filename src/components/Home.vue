@@ -28,8 +28,8 @@
 			<!-- <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link> -->
           </div>
           <div class="cell medium-6">
-              <silentbox-single src="../assets/media/sample.mp4">
-                <img src="../assets/img/video-test.jpg">
+              <silentbox-single src="https://video.oracle.com/detail/video/6011821841001">
+                <img src="../../static/internship-video-poster.jpg">
               </silentbox-single>
           </div>
         </div>
