@@ -237,7 +237,7 @@ export default {
       justify-content: center; /* align horizontal */
       align-items: center; /* align vertical */
       img {
-        max-width:95%;
+        max-width:75%;
         max-height:50px;
         @include breakpoint(small) {
          max-height:30px;
