@@ -25,6 +25,8 @@
           <div class="cell medium-6 padded-right">
             <h3>Take a Sneak Peek.</h3>
             <p>Check out the video to get a feel for what you can expect this summer.</p>
+
+
 			<!-- <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link> -->
           </div>
           <div class="cell medium-6">
