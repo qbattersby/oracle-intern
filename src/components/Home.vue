@@ -30,7 +30,18 @@
 			<!-- <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link> -->
           </div>
           <div class="cell medium-6">
-              <a class="silentbox-single" target="blank" href="https://video.oracle.com/detail/video/6011821841001">
+
+              <div id="reveal-home-video" class="reveal" data-reveal>
+                <!-- Here is the BCID Embed -->
+                <div class="cb78vid">
+                  <div class="bcembed bcvideo bcthumbnail" data-bcid="6011821841001"></div>
+                </div>
+                <button class="close-button" data-close aria-label="Close modal" type="button">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <a class="silentbox-single" v-on:click="openReveal()">
                 <img src="../../static/internship-video-poster.jpg">
               </a>
           </div>
@@ -45,11 +56,28 @@
 
 <script>
 export default {
-  name: 'hello',
+  mounted() {
+    this.reveal = new Foundation.Reveal($('#reveal-home-video'), {
+      // These options can be declarative using the data attributes
+      animationIn: 'scale-in-up',
+    });
+  },
   data() {
     return {
       msg: '',
     };
+  },
+  methods: {
+    // Added the below openReveal method for two reasons:
+    // 1) There was a bug preventing the reveal from working once
+    // you navigated away and back to the reveal component.
+    // 2) Most dialogs will need to be opened using code.
+    openReveal() {
+      this.reveal.open();
+    },
+  },
+  destroyed() {
+    this.reveal.destroy();
   },
 };
 </script>
