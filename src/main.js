@@ -3,12 +3,10 @@
 
 import 'core-js/es6/promise';
 import Vue from 'vue';
-import VueSilentbox from 'vue-silentbox';
 import './foundation';
 import App from './App';
 import router from './router';
 
-Vue.use(VueSilentbox);
 
 /* eslint-disable*/
 

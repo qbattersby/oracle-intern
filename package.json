@@ -24,7 +24,6 @@
     "vue-cal": "git+https://github.com/qbattersby/vue-cal.git",
     "vue-router": "^2.7.0",
     "vue-scrollto": "^2.13.0",
-    "vue-silentbox": "git+https://github.com/qbattersby/silentbox.git",
     "vue-slick": "^1.1.15",
     "what-input": "^4.3.1"
   },
