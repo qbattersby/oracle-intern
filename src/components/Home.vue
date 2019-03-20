@@ -32,7 +32,8 @@
           </div>
           <div class="cell medium-6">
 
-            <a class="silentbox-single" href="?bcid=6011821841001" rel="vbox">
+            <a class="video-preview" href="?bcid=6011821841001" rel="vbox">
+              <img class="ie-play" href="../assets/img/btn-play.svg">
               <img src="../../static/internship-video-poster.jpg">
             </a>
 
@@ -48,12 +49,6 @@
 
 <script>
 export default {
-  mounted() {
-    this.reveal = new Foundation.Reveal($('#reveal-home-video'), {
-      // These options can be declarative using the data attributes
-      animationIn: 'scale-in-up',
-    });
-  },
   data() {
     return {
       msg: '',

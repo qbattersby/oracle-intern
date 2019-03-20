@@ -157,7 +157,7 @@
     }
   }
 
-  .silentbox-single {
+  .video-preview {
     position: relative;
     display: block;
     width: 100%;
@@ -175,11 +175,13 @@
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 110.63 110.63'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%2300758F;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Ebtn-play%3C/title%3E%3Ccircle class='a' cx='55.32' cy='55.32' r='55.32'/%3E%3Cpolygon class='b' points='45.18 71.85 71.95 55.32 45.18 38.78 45.18 71.85'/%3E%3C/svg%3E");
       background-position:top left;
       background-size:contain;
+      background-repeat: no-repeat;
       width:115px;
       height:115px;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, 0%);
       -webkit-transform: translate(-50%, -50%);
       transition:all 0.2s ease;
     }
@@ -187,13 +189,20 @@
       width: 100%;
       height:auto;
     }
+    .ie-play {
+      width:115px;
+      height:115px;
+      display:none;
+      transform: translate(-50%, -50%);
+
+    }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .ie-play {
+        display:block;
+      }
+    }
   }
 
-  #silentbox-overlay__container {
-    width:80% !important;
-    margin-left:auto !important;
-    margin-right:auto !important;
-  }
 
   .page-enter-active {
     transition: opacity 0.5s;
