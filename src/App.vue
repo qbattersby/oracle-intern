@@ -59,6 +59,8 @@
       };
     },
     mounted() {
+      // In the future lets add a function to setAttributes, gross..
+
       const dtmScript = document.createElement('script');
       dtmScript.setAttribute('src', 'https://www.oracle.com/asset/web/dtm/dtm-vendor.js');
       dtmScript.setAttribute('language', 'JavaScript');
@@ -69,14 +71,12 @@
       metricsScript.setAttribute('language', 'JavaScript');
       document.body.appendChild(metricsScript);
 
-
       const trusteScript = document.createElement('script');
       trusteScript.setAttribute('src', '//consent.truste.com/notice?domain=oracle.com&c=teconsent&text=true&gtm=1');
       trusteScript.setAttribute('type', 'text/javascript');
       trusteScript.setAttribute('async', 'aync');
       trusteScript.setAttribute('crossorigin', '');
       document.body.appendChild(trusteScript);
-
 
       const ocomScript = document.createElement('script');
       ocomScript.setAttribute('src', 'static/deps/ocom-home-v4.js');

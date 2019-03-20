@@ -60,7 +60,7 @@
                   <img src="../assets/img/dropbox.svg">
                 </div>
 				<div class="cell">
-                  <img src="../assets/img/wellsfargo.svg">
+                  <img class="wells" src="../assets/img/wellsfargo.svg">
                 </div>
               </div>
             </li>
@@ -212,6 +212,13 @@ export default {
     }
   }
 
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    #bird {
+      top:-150px;
+      animation: unset;
+    }
+  }
+
   .x1, .x2 {
     animation: unset;
   }
@@ -245,6 +252,15 @@ export default {
       }
     }
   }
+
+
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .brands .cell img.wells {
+      width: 75%;
+    }
+  }
+
+
 
   .stats {
     margin-top:50px;
