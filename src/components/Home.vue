@@ -27,23 +27,15 @@
             <p>Check out the video to get a feel for what you can expect this summer.</p>
 
 
+
 			<!-- <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link> -->
           </div>
           <div class="cell medium-6">
 
-              <div id="reveal-home-video" class="reveal" data-reveal>
-                <!-- Here is the BCID Embed -->
-                <div class="cb78vid">
-                  <div class="bcembed bcvideo bcthumbnail" data-bcid="6011821841001"></div>
-                </div>
-                <button class="close-button" data-close aria-label="Close modal" type="button">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
+            <a class="silentbox-single" href="?bcid=6011821841001" rel="vbox">
+              <img src="../../static/internship-video-poster.jpg">
+            </a>
 
-              <a class="silentbox-single" v-on:click="openReveal()">
-                <img src="../../static/internship-video-poster.jpg">
-              </a>
           </div>
         </div>
       </div>

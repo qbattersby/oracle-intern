@@ -78,6 +78,18 @@
       document.body.appendChild(trusteScript);
 
 
+      const ocomScript = document.createElement('script');
+      ocomScript.setAttribute('src', 'static/deps/ocom-home-v4.js');
+      ocomScript.setAttribute('data-wsjs', '');
+      ocomScript.setAttribute('data-reqjq', '');
+      document.head.appendChild(ocomScript);
+
+      const ocomcssScript = document.createElement('link');
+      ocomcssScript.setAttribute('href', 'static/deps/oracle-video.css');
+      ocomcssScript.setAttribute('data-wscss', '');
+      ocomcssScript.setAttribute('rel', 'stylesheet');
+      document.head.appendChild(ocomcssScript);
+
       const dtmcustomScript = document.createElement('script');
       const code = "var footer_type = 'custom';";
       dtmcustomScript.setAttribute('type', 'text/javascript');
