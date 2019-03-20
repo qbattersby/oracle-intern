@@ -64,6 +64,19 @@
       dtmScript.setAttribute('language', 'JavaScript');
       document.head.appendChild(dtmScript);
 
+      const metricsScript = document.createElement('script');
+      metricsScript.setAttribute('src', 'https://www.oracleimg.com/us/assets/metrics/ora_ocom.js');
+      metricsScript.setAttribute('language', 'JavaScript');
+      document.body.appendChild(metricsScript);
+
+
+      const trusteScript = document.createElement('script');
+      trusteScript.setAttribute('src', '//consent.truste.com/notice?domain=oracle.com&c=teconsent&text=true&gtm=1');
+      trusteScript.setAttribute('type', 'text/javascript');
+      trusteScript.setAttribute('async', 'aync');
+      trusteScript.setAttribute('crossorigin', '');
+      document.body.appendChild(trusteScript);
+
 
       const dtmcustomScript = document.createElement('script');
       const code = "var footer_type = 'custom';";
