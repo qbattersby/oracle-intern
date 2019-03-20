@@ -193,12 +193,17 @@
       width:115px;
       height:115px;
       display:none;
-      transform: translate(-50%, -50%);
-
+      transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, 0%);
+      position:absolute;
+      z-index:99;
+      top: 50%;
+      left: 50%;
     }
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
       .ie-play {
         display:block;
+
       }
     }
   }
