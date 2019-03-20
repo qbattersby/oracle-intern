@@ -193,8 +193,8 @@
       width:115px;
       height:115px;
       display:none;
-      transform: translate(-50%, 0%);
-      -ms-transform: translate(-50%, 0%);
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
       position:absolute;
       z-index:99;
       top: 50%;

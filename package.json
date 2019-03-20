@@ -85,6 +85,7 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
+    "IE 10",
     "not ie <= 8"
   ]
 }
