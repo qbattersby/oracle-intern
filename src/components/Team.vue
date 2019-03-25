@@ -7,29 +7,28 @@
 
 
       <div class="callout-content grid-container text-center">
-        <h1 class="callout-heading">Meet your Team</h1>
+        <h1 class="callout-heading">Meet Your Team</h1>
         <div class="callout-copy">
-          <p>At Oracle we win as a team. Here you'll find your winning team,<br class="hide-for-small-only"> from mentors to fellow interns. Get ready to fly with the best. </p>
+          <p>At Oracle, we win as a team. From mentors to fellow interns,<br class="hide-for-small-only">  get ready to fly with the best. </p>
         </div>
       </div>
     </div>
 
     <div class="subnav">
       <ul id="team-nav" class="menu align-center" data-smooth-scroll>
-        <li><a href="#marketingclass">2018 Marketing Class</a></li>
-        <li><a href="#interns">Meet the Interns</a></li>
+        <li><a href="#recruitmentteam">2018 Recruitment Team </a></li>
+        <li><a href="#interns">Meet your Class</a></li>
         <li><a href="#mentors">Meet your Mentors</a></li>
       </ul>
     </div>
 
 
-    <section class="gray-bg" id="marketingclass">
+    <section class="gray-bg" id="recruitmentteam">
       <div class="grid-container">
         <div class="grid-x grid-margin-x align-center">
           <div class="cell medium-8 text-center">
-            <h3>Meet Oracle’s Marketing Class of 2018</h3>
-            <p>Meet members of Oracle’s Marketing Class Of 2018. Feel free to reach out to any of the
-              members for help or advice.</p>
+            <h3>Meet Your Recruitment Team</h3>
+            <p>Feel free to reach out to any of them for help or advice throughout your internship.</p>
           </div>
         </div>
         <div class="class-group">
@@ -39,51 +38,55 @@
 
             <div class="slide">
               <div class="card">
-                <img src="../assets/img/laren-roberge.jpg">
+                <img src="../assets/img/rachel-blackbourn1.jpg" data-src="../assets/img/rachel-blackbourn2.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
                 <div class="card-section">
-                  <h5>Lauren Roberge</h5>
-                  <p>Marketing Specialist</p>
-                  <p>Cal Poly, San Luis Obispo</p>
+                  <h5>Rachel Blackbourn</h5>
+                  <p>Marketing Internship Mentor</p>
+                  <p>University of Wisconsin - Madison</p>
                 </div>
               </div>
             </div>
             <div class="slide">
               <div class="card">
-                <img src="../assets/img/megan-leung.jpg">
+                <img src="../assets/img/alex-mandel1.jpg" data-src="../assets/img/alex-mandel2.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
                 <div class="card-section">
-                  <h5>Lauren Roberge</h5>
-                  <p>Marketing Specialist</p>
-                  <p>Cal Poly, San Luis Obispo</p>
+                  <h5>Alex Mandel</h5>
+                  <p>Marketing Internship Mentor</p>
+                  <p>Swarthmore College</p>
                 </div>
               </div>
             </div>
             <div class="slide">
               <div class="card">
-                <img src="../assets/img/alicia-breyer.jpg">
+                <img src="../assets/img/rita-franov1.jpg" data-src="../assets/img/rita-franov2.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
                 <div class="card-section">
-                  <h5>Lauren Roberge</h5>
-                  <p>Marketing Specialist</p>
-                  <p>Cal Poly, San Luis Obispo</p>
+                  <h5>Rita Franov</h5>
+                  <p>Marketing Internship Manager</p>
                 </div>
               </div>
             </div>
             <div class="slide">
               <div class="card">
-                <img src="../assets/img/nathan-bao.jpg">
+                <img src="../assets/img/nathan-bao1.jpg" data-src="../assets/img/nathan-bao2.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
                 <div class="card-section">
-                  <h5>Lauren Roberge</h5>
-                  <p>Marketing Specialist</p>
-                  <p>Cal Poly, San Luis Obispo</p>
+                  <h5>Nathan Bao</h5>
+                  <p>Marketing Internship Mentor</p>
+                  <p>American University</p>
                 </div>
               </div>
             </div>
             <div class="slide">
               <div class="card">
-                <img src="../assets/img/elizabeth-lee.jpg">
+                <img src="../assets/img/sarina-price1.jpg" data-src="../assets/img/sarina-price2.jpg" v-on:mouseover="hover"
+                       v-on:mouseleave="hoverOut">
                 <div class="card-section">
-                  <h5>Lauren Roberge</h5>
-                  <p>Marketing Specialist</p>
-                  <p>Cal Poly, San Luis Obispo</p>
+                  <h5>Sarina Price</h5>
+                  <p>Marketing Internship Mentor</p>
+                  <p>Texas Christian University</p>
                 </div>
               </div>
             </div>
@@ -109,9 +112,9 @@
         <div class="grid-x align-stretch">
           <div class="cell small-12 medium-6 large-4 grid-callout dark-bg">
                 <div class="grid-callout-copy">
-                  <h3>Get Ready to Soar. Meet your Fellow Interns.</h3>
+                  <h3>Get Ready to Soar with Your Fellow Interns.</h3>
 
-                  <p>Introducing your Summer 2019 class—where each intern brings to the team a unique set of skills, background, and a fresh perspective. Get to know your fellow interns this summer for the ultimate intern experience.</p>
+                  <p>Introducing your Summer 2019 Class! Each of you brings a unique set of skills, background, and perspectives.</p>
                 </div>
           </div>
 
@@ -119,169 +122,133 @@
           <div class="cell small-12 medium-6 large-8">
             <div class="grid-x align-stretch">
               <div class="cell large-3 medium-6 small-4">
-                <div class="intern" style="background-image: url(../../static/face1.jpg)">
+                <div class="intern" style="background-image: url(../../static/max-sickinger.jpg)">
                   <div class="intern-info brand-darkorange">
                     <div class="details">
-                      <name>Alanna Harrist</name>
-                      <school>Oklahoma State University</school>
+                      <name>Max Sickinger</name>
+                      <school>Claremont McKenna College</school>
                       <p>Mentor:<br>
-                        Amy Loskutoff
+                        Chip Woerner
                       </p>
 
                       <p>Department:<br>
-                        Corporate Events Marketing
+                        Corporate Marketing
                       </p>
                       <p>
-                        Start & End Date:<br>
-                        June 4th-Aug 10th
-                      </p>
-                      <p>
-                        Fun fact: Plays the ukulele
+                        Fun fact: I’m Swiss but speak Spanish!
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="cell large-3 small-4">
-                <div class="intern" style="background-image: url(../../static/face2.jpg)">
+                <div class="intern" style="background-image: url(../../static/anne-pacholski.jpg)">
                   <div class="intern-info brand-darkorange">
                     <div class="details">
-                      <name>Alanna Harrist</name>
-                      <school>Oklahoma State University</school>
+                      <name>Anne Pacholski</name>
+                      <school>Indiana University</school>
                       <p>Mentor:<br>
-                        Amy Loskutoff
+                        Sonang Kim
                       </p>
 
                       <p>Department:<br>
-                        Corporate Events Marketing
+                        Global Customer Programs (GCP)
                       </p>
                       <p>
-                        Start & End Date:<br>
-                        June 4th-Aug 10th
-                      </p>
-                      <p>
-                        Fun fact: Plays the ukulele
+                        Fun fact: I won a car my freshman year of high school in a raffle!
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="cell large-3 small-4">
-                <div class="intern" style="background-image: url(../../static/face1.jpg)">
+                <div class="intern" style="background-image: url(../../static/parker-carroway.jpg)">
                   <div class="intern-info brand-blue">
                     <div class="details">
-                      <name>Alanna Harrist</name>
-                      <school>Oklahoma State University</school>
+                      <name>Parker Carroway</name>
+                      <school>University of Oklahoma</school>
                       <p>Mentor:<br>
-                        Amy Loskutoff
+                        Julian Edwards
                       </p>
 
                       <p>Department:<br>
-                        Corporate Events Marketing
+                        Event Marketing
                       </p>
                       <p>
-                        Start & End Date:<br>
-                        June 4th-Aug 10th
-                      </p>
-                      <p>
-                        Fun fact: Plays the ukulele
+                        Fun fact: I’m obsessed with discovering music!
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="cell large-3 small-4">
-                <div class="intern" style="background-image: url(../../static/face2.jpg)">
+                <div class="intern" style="background-image: url(../../static/danny-weinreb.jpg)">
                   <div class="intern-info brand-darkblue">
                     <div class="details">
-                      <name>Alanna Harrist</name>
-                      <school>Oklahoma State University</school>
+                      <name>Danny Weinreb</name>
+                      <school>Indiana University</school>
                       <p>Mentor:<br>
-                        Amy Loskutoff
+                        Lisa Marcyes
                       </p>
 
                       <p>Department:<br>
-                        Corporate Events Marketing
+                        Social Media
                       </p>
                       <p>
-                        Start & End Date:<br>
-                        June 4th-Aug 10th
-                      </p>
-                      <p>
-                        Fun fact: Plays the ukulele
+                        Fun fact: I love sports!
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="cell large-3 small-4">
-                <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
+                <div class="intern" style="background-image: url(../../static/ilana-basman.jpg)">
                   <div class="intern-info brand-green">
                     <div class="details">
-                      <name>Alanna Harrist</name>
-                      <school>Oklahoma State University</school>
+                      <name>Ilana Basman</name>
+                      <school>Boston University</school>
                       <p>Mentor:<br>
-                        Amy Loskutoff
+                        Sarita Kincaid and Dennis MacNeil
                       </p>
 
                       <p>Department:<br>
-                        Corporate Events Marketing
+                        Analyst Relations
                       </p>
                       <p>
-                        Start & End Date:<br>
-                        June 4th-Aug 10th
-                      </p>
-                      <p>
-                        Fun fact: Plays the ukulele
+                        Fun fact: I’ve visited 32 countries!
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="cell large-3 small-4">
-                <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
+                <div class="intern" style="background-image: url(../../static/kenan-kitchen.jpg)">
                   <div class="intern-info brand-darkgreen">
                     <div class="details">
-                      <name>Alanna Harrist</name>
-                      <school>Oklahoma State University</school>
+                      <name>Kenan Kitchen</name>
+                      <school>Georgetown University</school>
                       <p>Mentor:<br>
-                        Amy Loskutoff
+                        Jason Williamson
                       </p>
 
                       <p>Department:<br>
-                        Corporate Events Marketing
+                        Startup Ecosystem
                       </p>
                       <p>
-                        Start & End Date:<br>
-                        June 4th-Aug 10th
-                      </p>
-                      <p>
-                        Fun fact: Plays the ukulele
+                        Fun fact: I have been to 27 countries!
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="cell large-3 small-4">
-                <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
+                <div class="intern" style="background-image: url(../../static/placeholder6.jpg)">
                   <div class="intern-info brand-darkburgundy">
                     <div class="details">
-                      <name>Alanna Harrist</name>
-                      <school>Oklahoma State University</school>
-                      <p>Mentor:<br>
-                        Amy Loskutoff
-                      </p>
-
-                      <p>Department:<br>
-                        Corporate Events Marketing
-                      </p>
-                      <p>
-                        Start & End Date:<br>
-                        June 4th-Aug 10th
-                      </p>
-                      <p>
-                        Fun fact: Plays the ukulele
-                      </p>
+                      <div class="update">
+						Come back soon to meet
+						more fellow interns!
+					  </div>
                     </div>
                   </div>
                 </div>
@@ -290,22 +257,10 @@
                 <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
                   <div class="intern-info brand-burgundy">
                     <div class="details">
-                      <name>Alanna Harrist</name>
-                      <school>Oklahoma State University</school>
-                      <p>Mentor:<br>
-                        Amy Loskutoff
-                      </p>
-
-                      <p>Department:<br>
-                        Corporate Events Marketing
-                      </p>
-                      <p>
-                        Start & End Date:<br>
-                        June 4th-Aug 10th
-                      </p>
-                      <p>
-                        Fun fact: Plays the ukulele
-                      </p>
+                      <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
                     </div>
                   </div>
                 </div>
@@ -317,207 +272,13 @@
 
 
           <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/face2.jpg)">
+            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
               <div class="intern-info brand-darkorange">
                 <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/face2.jpg)">
-              <div class="intern-info brand-darkblue">
-                <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
-              <div class="intern-info brand-green">
-                <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
-              <div class="intern-info brand-darkgreen">
-                <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-4">
-            <div class="quote brand-burgundy">
-              <div class="quote-info">
-                <div class="details">
-                 <p>Be polite and follow up as much as possible. As
-                  an intern, you will be remembered for not only
-                  the work you do, but also the type of person you
-                   are. Take full advantage of the opportunity!</p>
-                  <p><strong>Travis Pillon</strong><br>
-                    UC Berkeley, Summer 2013-2017</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/face2.jpg)">
-              <div class="intern-info brand-darkblue">
-                <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
-              <div class="intern-info brand-green">
-                <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
-              <div class="intern-info brand-darkgreen">
-                <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/face2.jpg)">
-              <div class="intern-info brand-darkorange">
-                <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
+                  <div class="update">
+                    Come back soon to meet
+                    more fellow interns!
+                  </div>
                 </div>
               </div>
             </div>
@@ -525,6 +286,18 @@
           <div class="cell medium-2">
             <div class="intern" style="background-image: url(../../static/placeholder5.jpg)">
               <div class="intern-info brand-darkblue">
+                <div class="details">
+                  <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-2">
+            <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
+              <div class="intern-info brand-green">
                 <div class="details">
                   <div class="update">
                     Come back soon to meet
@@ -538,22 +311,93 @@
             <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
+                  <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4">
+            <div class="quote brand-burgundy">
+              <div class="quote-info">
+                <div class="details">
+                 <p>Be polite and follow up as much as possible. As an intern, you will be remembered for not only the work you do, but also the type of person you are.</p>
+                  <p><strong>Travis Pillon</strong><br>
+                    Intern Class of 2015</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-2">
+            <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
+              <div class="intern-info brand-darkblue">
+                <div class="details">
+                  <div class="update">
+                    Come back soon to meet
+                    more fellow interns!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-2">
+            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
+              <div class="intern-info brand-green">
+                <div class="details">
+                  <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-2">
+            <div class="intern" style="background-image: url(../../static/placeholder6.jpg)">
+              <div class="intern-info brand-darkgreen">
+                <div class="details">
+                  <div class="update">
+                    Come back soon to meet
+                    more fellow interns!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-2">
+            <div class="intern" style="background-image: url(../../static/placeholder5.jpg)">
+              <div class="intern-info brand-darkorange">
+                <div class="details">
+                  <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-2">
+            <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
+              <div class="intern-info brand-darkblue">
+                <div class="details">
+                  <div class="update">
+                    Come back soon to meet
+                    more fellow interns!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-2">
+            <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
+              <div class="intern-info brand-darkgreen">
+                <div class="details">
+                  <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
                 </div>
               </div>
             </div>
@@ -562,14 +406,9 @@
             <div class="quote brand-green">
               <div class="quote-info">
                 <div class="details">
-                  <p>Be polite and follow up as much as possible. As
-                    an intern, you will be remembered for not only
-                    the work you do, but also the type of person you
-                    are. Take full advantage of the opportunity. You will be remembered for not only
-                    the work you do, but also the type of person you
-                    are. Take full advantage of the opportunity!</p>
-                  <p><strong>Travis Pillon</strong><br>
-                    UC Berkeley, Summer 2013-2017</p>
+                  <p>Don’t be afraid to ask questions. This is the time to learn, so find someone that can help you grow. Step out of your comfort zone and embrace projects that will teach you something new. Most importantly, remember that the mentors care about making sure you succeed and have the best experience possible.</p>
+                  <p><strong>Alicia Breyer</strong><br>
+                    Intern Class of 2017</p>
                 </div>
               </div>
             </div>
@@ -578,70 +417,34 @@
             <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
+                  <div class="update">
+                    Come back soon to meet
+                    more fellow interns!
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/face1.jpg)">
+            <div class="intern" style="background-image: url(../../static/placeholder6.jpg)">
               <div class="intern-info brand-darkorange">
                 <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
+                  <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/face2.jpg)">
+            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
               <div class="intern-info brand-darkblue">
                 <div class="details">
-                  <name>Alanna Harrist</name>
-                  <school>Oklahoma State University</school>
-                  <p>Mentor:<br>
-                    Amy Loskutoff
-                  </p>
-
-                  <p>Department:<br>
-                    Corporate Events Marketing
-                  </p>
-                  <p>
-                    Start & End Date:<br>
-                    June 4th-Aug 10th
-                  </p>
-                  <p>
-                    Fun fact: Plays the ukulele
-                  </p>
+                  <div class="update">
+                    Come back soon to meet
+                    more fellow interns!
+                  </div>
                 </div>
               </div>
             </div>
@@ -660,7 +463,7 @@
         <div class="grid-x grid-margin-x align-center">
           <div class="cell medium-8 text-center">
         <h2>Meet Your Mentors</h2>
-        <p>Our mentors have a wealth of knowledge and experience to share and are committed to making this year’s intern experience the best ever.</p>
+        <p>Your mentors have the knowledge and experience to share and are committed to making your intern experience the best ever.</p>
         </div>
         </div>
           <div class="mentor-group">
@@ -669,93 +472,53 @@
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/megan-leung.jpg" data-src="../assets/img/nathan-bao.jpg" v-on:mouseover="hover"
-                       v-on:mouseleave="hoverOut">
+                  <img src="../assets/img/travis-ohara.jpg">
                   <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="slide">
-                <div class="card">
-                  <img src="../assets/img/alicia-breyer.jpg" data-src="../assets/img/nathan-bao.jpg" v-on:mouseover="hover"
-                       v-on:mouseleave="hoverOut">
-                  <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
+                    <h5>Travis O’Hara</h5>
+                    <p>Global Events</p>
                   </div>
                 </div>
               </div>
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/nathan-bao.jpg" data-src="../assets/img/placeholder2.jpg" v-on:mouseover="hover"
-                       v-on:mouseleave="hoverOut">
+                  <img src="../assets/img/julian-edwards.jpg">
                   <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="slide">
-                <div class="card">
-                  <img src="../assets/img/elizabeth-lee.jpg" data-src="../assets/img/placeholder3.jpg" v-on:mouseover="hover"
-                       v-on:mouseleave="hoverOut">
-                  <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
+                    <h5>Julian Edwards</h5>
+                    <p>Events Marketing</p>
                   </div>
                 </div>
               </div>
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/alicia-breyer.jpg" data-src="../assets/img/placeholder5.jpg" v-on:mouseover="hover"
-                       v-on:mouseleave="hoverOut">
+                  <img src="../assets/img/carol-sato.jpg">
                   <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
+                    <h5>Carol Sato</h5>
+                    <p>Public Relations</p>
                   </div>
                 </div>
               </div>
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/nathan-bao.jpg" data-src="../assets/img/placeholder2.jpg" v-on:mouseover="hover"
-                       v-on:mouseleave="hoverOut">
+                  <img src="../assets/img/celina-bertallee.jpg">
                   <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
+                    <h5>Celina Bertallee</h5>
+                    <p>Public Relations</p>
                   </div>
                 </div>
               </div>
-
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/elizabeth-lee.jpg" data-src="../assets/img/placeholder1.jpg" v-on:mouseover="hover"
-                       v-on:mouseleave="hoverOut">
+                  <img src="../assets/img/lisa-marcyes.jpg">
                   <div class="card-section">
-                    <h5>Lauren Roberge</h5>
-                    <p>Marketing Specialist</p>
-                    <p>Cal Poly, San Luis Obispo</p>
+                    <h5>Lisa Marcyes</h5>
+                    <p>Social Marketing</p>
                   </div>
                 </div>
               </div>
-
-
-
 
             </slick>
 
@@ -959,6 +722,9 @@
     width:100%;
     .card {
       margin: 0 10px;
+    }
+    .card-section {
+      min-height:160px;
     }
     @include breakpoint(medium down) {
       width:80%;

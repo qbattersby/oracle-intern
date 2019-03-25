@@ -2,9 +2,9 @@
   <div class="success">
     <div class="callout">
       <div class="callout-content grid-container text-center">
-        <h1 class="callout-heading">Tips to Make The Most of your Internship</h1>
+        <h1 class="callout-heading">Make the Most of Your Internship</h1>
         <div class="callout-copy">
-          <p>In addition to the sage advice from some of our past interns, here are a few more tips to help you have the most rewarding and successful internship experience possible.</p>
+          <p>Hear how past interns made the most of their internship experience.</p>
         </div>
       </div>
     </div>
@@ -14,14 +14,20 @@
       <div class="grid-container">
         <div class="grid-x grid-margin-x align-middle">
           <div class="cell medium-6 padded-right">
-            <h3>Lorem ipsum dolor sit amet adipiscing.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+            <h3>Hear from Richard, a former Corporate Marketing Intern!</h3>
+            <p>“The five or six weeks that we’ve been here, I think I’ve learned more about myself than in the last three years of school.”</p>
             <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link>
           </div>
           <div class="cell medium-6">
-            <silentbox-single src="https://www.youtube.com/watch?v=Mmwv94WKmnI" description="Sample Video" autoplay="true">
-              <img src="../assets/img/video-test.jpg">
-            </silentbox-single>
+
+            <a class="video-preview" href="?bcid=6011822331001" rel="vbox">
+              <div class="ie-play">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.63 110.63"><defs></defs><circle style="fill:#00758F;" class="a" cx="55.32" cy="55.32" r="55.32"/><polygon class="b" style="fill:#fff;" points="45.18 71.85 71.95 55.32 45.18 38.78 45.18 71.85"/></svg>
+              </div>
+              <img src="../assets/img/Richard_video.jpg">
+            </a>
+
+
           </div>
         </div>
       </div>
@@ -32,13 +38,20 @@
       <div class="grid-container">
         <div class="grid-x grid-margin-x align-middle">
           <div class="cell medium-6">
-            <silentbox-single src="https://www.youtube.com/watch?v=Mmwv94WKmnI" description="Sample Video" autoplay="true">
-              <img src="../assets/img/video-test.jpg">
-            </silentbox-single>
+
+            <a class="video-preview" href="?bcid=6011822020001" rel="vbox">
+              <div class="ie-play">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.63 110.63"><defs></defs><circle style="fill:#00758F;" class="a" cx="55.32" cy="55.32" r="55.32"/><polygon class="b" style="fill:#fff;" points="45.18 71.85 71.95 55.32 45.18 38.78 45.18 71.85"/></svg>
+              </div>
+              <img src="../assets/img/Ciel_video.jpg">
+            </a>
+
+
+
           </div>
           <div class="cell medium-6 padded-left">
-            <h3>Lorem ipsum dolor sit amet adipiscing.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+            <h3>Hear from Ciel, a former Global Customer Programs Intern!</h3>
+            <p>“I found that Oracle is so multifaceted. They do a lot of work with social enterprises and non-profits. It’s a rich environment to be in.”</p>
           </div>
 
         </div>

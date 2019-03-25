@@ -25,10 +25,7 @@
           <div class="cell medium-6 padded-right">
             <h3>Take a Sneak Peek.</h3>
             <p>Check out the video to get a feel for what you can expect this summer.</p>
-
-
-
-			<!-- <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link> -->
+			      <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link>
           </div>
           <div class="cell medium-6">
 
@@ -55,18 +52,6 @@ export default {
     return {
       msg: '',
     };
-  },
-  methods: {
-    // Added the below openReveal method for two reasons:
-    // 1) There was a bug preventing the reveal from working once
-    // you navigated away and back to the reveal component.
-    // 2) Most dialogs will need to be opened using code.
-    openReveal() {
-      this.reveal.open();
-    },
-  },
-  destroyed() {
-    this.reveal.destroy();
   },
 };
 </script>
