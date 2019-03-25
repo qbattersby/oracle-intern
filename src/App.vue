@@ -111,6 +111,9 @@
   .logo img {
     width:300px;
     height:auto;
+    @include breakpoint(small down) {
+      width:250px;
+    }
   }
 
   .top-bar {

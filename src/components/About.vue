@@ -178,7 +178,7 @@ export default {
   }
 
   .callout {
-    background-image: url('../assets/img/about-bg.svg');
+    background-image: url('../../static/about-bg.svg');
     background-size: cover;
     background-position: center right;
     @include breakpoint(large only) {

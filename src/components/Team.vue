@@ -110,7 +110,7 @@
     <section class="interns-grid" id="interns">
       <div class="grid-container fluid">
         <div class="grid-x align-stretch">
-          <div class="cell small-12 medium-6 large-4 grid-callout dark-bg">
+          <div class="cell small-12 medium-4 large-4 grid-callout dark-bg">
                 <div class="grid-callout-copy">
                   <h3>Get Ready to Soar with Your Fellow Interns.</h3>
 
@@ -119,14 +119,14 @@
           </div>
 
 
-          <div class="cell small-12 medium-6 large-8">
+          <div class="cell small-12 medium-8 large-8">
             <div class="grid-x align-stretch">
-              <div class="cell large-3 medium-6 small-4">
+              <div class="cell large-3 medium-6 small-12">
                 <div class="intern" style="background-image: url(../../static/max-sickinger.jpg)">
                   <div class="intern-info brand-darkorange">
                     <div class="details">
-                      <name>Max Sickinger</name>
-                      <school>Claremont McKenna College</school>
+                      <div class="name">Max Sickinger</div>
+                      <div class="school">Claremont McKenna College</div>
                       <p>Mentor:<br>
                         Chip Woerner
                       </p>
@@ -141,12 +141,12 @@
                   </div>
                 </div>
               </div>
-              <div class="cell large-3 small-4">
+              <div class="cell large-3 medium-6 small-12">
                 <div class="intern" style="background-image: url(../../static/anne-pacholski.jpg)">
                   <div class="intern-info brand-darkorange">
                     <div class="details">
-                      <name>Anne Pacholski</name>
-                      <school>Indiana University</school>
+                      <div class="name">Anne Pacholski</div>
+                      <div class="school">Indiana University</div>
                       <p>Mentor:<br>
                         Sonang Kim
                       </p>
@@ -161,12 +161,12 @@
                   </div>
                 </div>
               </div>
-              <div class="cell large-3 small-4">
+              <div class="cell large-3 medium-6 small-12">
                 <div class="intern" style="background-image: url(../../static/parker-carroway.jpg)">
                   <div class="intern-info brand-blue">
                     <div class="details">
-                      <name>Parker Carroway</name>
-                      <school>University of Oklahoma</school>
+                      <div class="name">Parker Carroway</div>
+                      <div class="school">University of Oklahoma</div>
                       <p>Mentor:<br>
                         Julian Edwards
                       </p>
@@ -181,12 +181,12 @@
                   </div>
                 </div>
               </div>
-              <div class="cell large-3 small-4">
+              <div class="cell large-3 medium-6 small-12">
                 <div class="intern" style="background-image: url(../../static/danny-weinreb.jpg)">
                   <div class="intern-info brand-darkblue">
                     <div class="details">
-                      <name>Danny Weinreb</name>
-                      <school>Indiana University</school>
+                      <div class="name">Danny Weinreb</div>
+                      <div class="school">Indiana University</div>
                       <p>Mentor:<br>
                         Lisa Marcyes
                       </p>
@@ -201,12 +201,12 @@
                   </div>
                 </div>
               </div>
-              <div class="cell large-3 small-4">
+              <div class="cell large-3 medium-6 small-12">
                 <div class="intern" style="background-image: url(../../static/ilana-basman.jpg)">
                   <div class="intern-info brand-green">
                     <div class="details">
-                      <name>Ilana Basman</name>
-                      <school>Boston University</school>
+                      <div class="name">Ilana Basman</div>
+                      <div class="school">Boston University</div>
                       <p>Mentor:<br>
                         Sarita Kincaid and Dennis MacNeil
                       </p>
@@ -221,69 +221,45 @@
                   </div>
                 </div>
               </div>
-              <div class="cell large-3 small-4">
-                <div class="intern" style="background-image: url(../../static/kenan-kitchen.jpg)">
-                  <div class="intern-info brand-darkgreen">
-                    <div class="details">
-                      <name>Kenan Kitchen</name>
-                      <school>Georgetown University</school>
-                      <p>Mentor:<br>
-                        Jason Williamson
-                      </p>
 
-                      <p>Department:<br>
-                        Startup Ecosystem
-                      </p>
-                      <p>
-                        Fun fact: I have been to 27 countries!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="cell large-3 small-4">
-                <div class="intern" style="background-image: url(../../static/placeholder6.jpg)">
-                  <div class="intern-info brand-darkburgundy">
+              <div class="cell large-9 medium-6 small-12">
+                <div class="quote brand-burgundy">
+                  <div class="quote-info">
                     <div class="details">
-                      <div class="update">
-						Come back soon to meet
-						more fellow interns!
-					  </div>
+                      <p>Be polite and follow up as much as possible. As an intern, you will be remembered for not only the work you do, but also the type of person you are.</p>
+                      <p><strong>Travis Pillon</strong><br>
+                        Intern Class of 2015</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="cell large-3 small-4">
-                <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
-                  <div class="intern-info brand-burgundy">
-                    <div class="details">
-                      <div class="update">
-                    Who’s next? Meet more
-					of your class soon.
-                  </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
 
 
 
-
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
-              <div class="intern-info brand-darkorange">
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(../../static/kenan-kitchen.jpg)">
+              <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
-                  </div>
+                  <div class="name">Kenan Kitchen</div>
+                  <div class="school">Georgetown University</div>
+                  <p>Mentor:<br>
+                    Jason Williamson
+                  </p>
+
+                  <p>Department:<br>
+                    Startup Ecosystem
+                  </p>
+                  <p>
+                    Fun fact: I have been to 27 countries!
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="cell medium-2">
+          <div class="cell medium-4 large-2 small-12">
             <div class="intern" style="background-image: url(../../static/placeholder5.jpg)">
               <div class="intern-info brand-darkblue">
                 <div class="details">
@@ -295,7 +271,7 @@
               </div>
             </div>
           </div>
-          <div class="cell medium-2">
+          <div class="cell medium-4 large-2 small-12">
             <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
@@ -307,7 +283,7 @@
               </div>
             </div>
           </div>
-          <div class="cell medium-2">
+          <div class="cell medium-4 large-2 small-12">
             <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
@@ -319,46 +295,11 @@
               </div>
             </div>
           </div>
-          <div class="cell medium-4">
-            <div class="quote brand-burgundy">
-              <div class="quote-info">
-                <div class="details">
-                 <p>Be polite and follow up as much as possible. As an intern, you will be remembered for not only the work you do, but also the type of person you are.</p>
-                  <p><strong>Travis Pillon</strong><br>
-                    Intern Class of 2015</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
-              <div class="intern-info brand-darkblue">
-                <div class="details">
-                  <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
                   <div class="update">
-                    Who’s next? Meet more
-					of your class soon.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder6.jpg)">
-              <div class="intern-info brand-darkgreen">
-                <div class="details">
-                  <div class="update">
                     Come back soon to meet
                     more fellow interns!
                   </div>
@@ -366,43 +307,21 @@
               </div>
             </div>
           </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder5.jpg)">
-              <div class="intern-info brand-darkorange">
-                <div class="details">
-                  <div class="update">
-                    Who’s next? Meet more
-					of your class soon.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
-              <div class="intern-info brand-darkblue">
-                <div class="details">
-                  <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
                   <div class="update">
                     Who’s next? Meet more
-					of your class soon.
+                    of your class soon.
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="cell medium-6">
+
+
+          <div class="cell medium-8 large-6 small-12">
             <div class="quote brand-green">
               <div class="quote-info">
                 <div class="details">
@@ -413,7 +332,79 @@
               </div>
             </div>
           </div>
-          <div class="cell medium-2">
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
+              <div class="intern-info brand-darkblue">
+                <div class="details">
+                  <div class="update">
+                    Come back soon to meet
+                    more fellow interns!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
+              <div class="intern-info brand-green">
+                <div class="details">
+                  <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(../../static/placeholder6.jpg)">
+              <div class="intern-info brand-darkgreen">
+                <div class="details">
+                  <div class="update">
+                    Come back soon to meet
+                    more fellow interns!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(../../static/placeholder5.jpg)">
+              <div class="intern-info brand-darkorange">
+                <div class="details">
+                  <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
+              <div class="intern-info brand-darkblue">
+                <div class="details">
+                  <div class="update">
+                    Come back soon to meet
+                    more fellow interns!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
+              <div class="intern-info brand-darkgreen">
+                <div class="details">
+                  <div class="update">
+                    Who’s next? Meet more
+					of your class soon.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
             <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
@@ -425,30 +416,18 @@
               </div>
             </div>
           </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder6.jpg)">
-              <div class="intern-info brand-darkorange">
+          <div class="cell medium-4 large-4 small-12">
+            <div class="quote brand-orange">
+              <div class="quote-info">
                 <div class="details">
-                  <div class="update">
-                    Who’s next? Meet more
-					of your class soon.
-                  </div>
+                  <p>Always be constantly curious and eager to learn.</p>
+                  <p><strong>Nathan Bao</strong><br>
+                    Intern Class of 2017</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="cell medium-2">
-            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
-              <div class="intern-info brand-darkblue">
-                <div class="details">
-                  <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
 
 
 
@@ -630,7 +609,7 @@
 <style lang="scss" scoped>
 
   .callout {
-    background-image: url('../assets/img/team-bg.svg');
+    background-image: url('../../static/team-bg.svg');
     background-size: cover;
     background-position: center right;
     position:relative;
@@ -647,7 +626,7 @@
   }
 
   .team-footer {
-    background-image: url('../assets/img/team-footer-bg.svg');
+    background-image: url('../../static/team-footer-bg.svg');
     background-size: cover;
     background-repeat:no-repeat;
     background-position: bottom left;
@@ -829,6 +808,16 @@
     overflow:hidden;
     box-sizing: border-box;
 
+    @include breakpoint(medium down) {
+      width: 33.33vw;
+      height: 33.33vw;
+    }
+
+    @include breakpoint(small down) {
+      width: 100vw;
+      height: 100vw;
+    }
+
     &:hover {
       .intern-info {
         opacity:1;
@@ -881,13 +870,13 @@
       margin-bottom:0;
       line-height:15px;
     }
-    name {
+    .name {
       font-size:18px;
       display:block;
       margin-bottom:0;
       line-height:18px;
     }
-    school {
+    .school {
       font-size:16px;
       display:block;
       margin-bottom:0;
@@ -905,11 +894,22 @@
     background-repeat: no-repeat;
     background-position: 5% 15%;
     background-size:40px 40px;
-    @include breakpoint(medium down) {
+    @include breakpoint(1400px down) {
       padding:20px 20px 20px 13%;
-      height:auto;
       background-size:20px 20px;
       background-position:3% 7%;
+      font-size:14px;
+      p {
+        line-height:1.3;
+      }
+    }
+    @include breakpoint(medium down) {
+      height: 33.33vw;
+    }
+    @include breakpoint(small down) {
+      height: 100vw;
+      background-size:40px 40px;
+
     }
     p:last-of-type {
       margin-bottom:0;
