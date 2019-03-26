@@ -6,6 +6,7 @@ import Vue from 'vue';
 import './foundation';
 import App from './App';
 import router from './router';
+import store from './store';
 
 
 /* eslint-disable*/
@@ -22,6 +23,7 @@ router.beforeEach((to, from, next) => {
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: { App },
 });

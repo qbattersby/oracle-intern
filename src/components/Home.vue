@@ -7,7 +7,8 @@
 
       <div class="callout-content grid-container">
         <h1 class="callout-heading text-uppercase">The Sky's The Limit</h1>
-        <img class="main-plane" src="../assets/img/main-plane.svg" alt="Welcome to Team Oracle">
+        <!-- <img class="main-plane" src="../assets/img/main-plane.svg" alt="Welcome to Team Oracle"> -->
+        <Plane :name="$store.state.username"></Plane>
 
         <div class="grid-x">
           <div class="callout-copy cell medium-7">
@@ -44,11 +45,16 @@
 </template>
 
 <script>
+import Plane from './Plane';
+
 export default {
-  data() {
-    return {
-      msg: '',
-    };
+  components: {
+    Plane,
+  },
+  mounted() {
+    if (this.$route.params.username) {
+      this.$store.commit('setUsername', this.$route.params.username);
+    }
   },
 };
 </script>
@@ -57,6 +63,7 @@ export default {
 <style lang="scss" scoped>
 
   .main-plane {
+    display: inline-block;
     margin-left:-160px;
     margin-top:-80px;
     max-width:100vw;
