@@ -21,6 +21,12 @@ export default new Router({
       meta: { title: 'Home' },
     },
     {
+      name: 'personalised-home',
+      path: '/:username',
+      component: Home,
+      meta: { title: 'Home' },
+    },
+    {
       name: 'team',
       path: '/meet-the-team',
       component: Team,
