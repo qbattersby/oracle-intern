@@ -165,6 +165,9 @@
     display: block;
     width: 100%;
     cursor: pointer;
+    @include breakpoint(small down) {
+      margin-bottom:20px;
+    }
     &:hover {
       &:before {
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 110.63 110.63'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23003B4D;%7D.b%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Ebtn-play%3C/title%3E%3Ccircle class='a' cx='55.32' cy='55.32' r='55.32'/%3E%3Cpolygon class='b' points='45.18 71.85 71.95 55.32 45.18 38.78 45.18 71.85'/%3E%3C/svg%3E%0A");

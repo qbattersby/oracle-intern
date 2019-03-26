@@ -16,7 +16,6 @@
           <div class="cell medium-6 padded-right">
             <h3>Hear from Richard, a former Corporate Marketing Intern!</h3>
             <p>“The five or six weeks that we’ve been here, I think I’ve learned more about myself than in the last three years of school.”</p>
-            <router-link to="/meet-the-team" exact class="button">Meet the Team</router-link>
           </div>
           <div class="cell medium-6">
 
@@ -85,7 +84,7 @@ export default {
       background-position: bottom left;
     }
     @include breakpoint(medium down) {
-      background-position: bottom center;
+      background-position: 77% bottom;
       background-size: cover;
     }
   }
@@ -99,6 +98,7 @@ export default {
     animation-delay: 0.5s;
     @include breakpoint(small only) {
       margin-top:23vh;
+      width:60%;
     }
   }
 

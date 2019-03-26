@@ -34,7 +34,7 @@
         <div class="class-group">
 
 
-          <slick ref="slick" :options="slickOptionsClass">
+          <slick ref="slick" :options="slickOptionsClass" @afterChange="handleAfterChange">
 
             <div class="slide">
               <div class="card">
@@ -42,7 +42,7 @@
                        v-on:mouseleave="hoverOut">
                 <div class="card-section">
                   <h5>Rachel Blackbourn</h5>
-                  <p>Marketing Internship Mentor</p>
+                  <p>Marketing Internship Manager</p>
                   <p>University of Wisconsin - Madison</p>
                 </div>
               </div>
@@ -53,7 +53,7 @@
                        v-on:mouseleave="hoverOut">
                 <div class="card-section">
                   <h5>Alex Mandel</h5>
-                  <p>Marketing Internship Mentor</p>
+                  <p>Marketing Internship Manager</p>
                   <p>Swarthmore College</p>
                 </div>
               </div>
@@ -64,7 +64,18 @@
                        v-on:mouseleave="hoverOut">
                 <div class="card-section">
                   <h5>Rita Franov</h5>
+                  <p>Marketing Internship Director</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="card">
+                <img src="../assets/img/sarina-price1.jpg" data-src="../assets/img/sarina-price2.jpg" v-on:mouseover="hover"
+                     v-on:mouseleave="hoverOut">
+                <div class="card-section">
+                  <h5>Sarina Price</h5>
                   <p>Marketing Internship Manager</p>
+                  <p>Texas Christian University</p>
                 </div>
               </div>
             </div>
@@ -74,22 +85,12 @@
                        v-on:mouseleave="hoverOut">
                 <div class="card-section">
                   <h5>Nathan Bao</h5>
-                  <p>Marketing Internship Mentor</p>
+                  <p>Marketing Internship Manager</p>
                   <p>American University</p>
                 </div>
               </div>
             </div>
-            <div class="slide">
-              <div class="card">
-                <img src="../assets/img/sarina-price1.jpg" data-src="../assets/img/sarina-price2.jpg" v-on:mouseover="hover"
-                       v-on:mouseleave="hoverOut">
-                <div class="card-section">
-                  <h5>Sarina Price</h5>
-                  <p>Marketing Internship Mentor</p>
-                  <p>Texas Christian University</p>
-                </div>
-              </div>
-            </div>
+
 
 
 
@@ -534,6 +535,15 @@
         targetImage.src = newSource;
         targetImage.dataset.src = source;
       },
+      // handleAfterChange(event, slick, currentSlide) {
+      //   const img = $(slick.$slides.get(currentSlide)).find('.card img');
+      //   console.log(img);
+      //   const source = img.src;
+      //   const newSource = img.dataset.src;
+      //
+      //   img.src = newSource;
+      //   img.dataset.src = source;
+      // },
     },
     data() {
       return {
@@ -563,7 +573,7 @@
             {
               breakpoint: 768,
               settings: {
-                arrows: false,
+                arrows: true,
                 dots: false,
                 slidesToShow: 1,
               },
@@ -572,7 +582,6 @@
         },
         slickOptionsClass: {
           slidesToShow: 5,
-          autoplay: false,
           responsive: [
             {
               breakpoint: 1024,
@@ -593,9 +602,11 @@
             {
               breakpoint: 768,
               settings: {
-                arrows: false,
+                arrows: true,
                 dots: false,
                 slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
               },
             },
           ],

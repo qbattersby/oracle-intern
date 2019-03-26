@@ -64,12 +64,20 @@ section {
   @include breakpoint(large down) {
     padding-right:10%;
   }
+  @include breakpoint(small down) {
+    padding-left:3%;
+    padding-right: 3%;
+  }
 }
 
 .padded-left {
   padding-left:23%;
   @include breakpoint(large down) {
     padding-left:10%;
+  }
+  @include breakpoint(small down) {
+    padding-left:3%;
+    padding-right: 3%;
   }
 }
 
@@ -408,14 +416,21 @@ section {
 }
 
 .slick-prev  {
-  left: -50px;
+  left: -20px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17.03 31.22'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:none;stroke:%23939699;stroke-linecap:round;stroke-miterlimit:10;stroke-width:2px;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eprev%3C/title%3E%3Cpolyline class='a' points='16.02 30.22 1.41 15.61 16.02 1'/%3E%3C/svg%3E");
   background-postion: top left;
+  &:hover {
+    color:transparent;
+  }
+
 }
 .slick-next {
-  right: -50px;
+  right: -20px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17.03 31.22'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:none;stroke:%23939699;stroke-linecap:round;stroke-miterlimit:10;stroke-width:2px;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Enext%3C/title%3E%3Cpolyline class='a' points='1 30.22 15.61 15.61 1 1'/%3E%3C/svg%3E");
   background-postion: top left;
+  &:hover {
+    color:transparent;
+  }
 }
 
 
