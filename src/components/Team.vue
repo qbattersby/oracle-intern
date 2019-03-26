@@ -816,7 +816,9 @@
     background-color: rgba(#592439, 1);
   }
 
-
+  .details {
+    max-width: 100%;
+  }
 
 
   .intern {
@@ -953,6 +955,7 @@
 
   .grid-callout-copy {
     @include flex-align-self(middle);
+    max-width: 100%;
   }
 
 
