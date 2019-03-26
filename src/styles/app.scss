@@ -64,12 +64,20 @@ section {
   @include breakpoint(large down) {
     padding-right:10%;
   }
+  @include breakpoint(small down) {
+    padding-left:3%;
+    padding-right: 3%;
+  }
 }
 
 .padded-left {
   padding-left:23%;
   @include breakpoint(large down) {
     padding-left:10%;
+  }
+  @include breakpoint(small down) {
+    padding-left:3%;
+    padding-right: 3%;
   }
 }
 
