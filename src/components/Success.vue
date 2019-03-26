@@ -20,9 +20,6 @@
           <div class="cell medium-6">
 
             <a class="video-preview" href="?bcid=6011822331001" rel="vbox">
-              <div class="ie-play">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.63 110.63"><defs></defs><circle style="fill:#00758F;" class="a" cx="55.32" cy="55.32" r="55.32"/><polygon class="b" style="fill:#fff;" points="45.18 71.85 71.95 55.32 45.18 38.78 45.18 71.85"/></svg>
-              </div>
               <img src="../assets/img/Richard_video.jpg">
             </a>
 
@@ -39,9 +36,6 @@
           <div class="cell medium-6">
 
             <a class="video-preview" href="?bcid=6011822020001" rel="vbox">
-              <div class="ie-play">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.63 110.63"><defs></defs><circle style="fill:#00758F;" class="a" cx="55.32" cy="55.32" r="55.32"/><polygon class="b" style="fill:#fff;" points="45.18 71.85 71.95 55.32 45.18 38.78 45.18 71.85"/></svg>
-              </div>
               <img src="../assets/img/Ciel_video.jpg">
             </a>
 

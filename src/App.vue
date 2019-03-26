@@ -187,7 +187,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%, -50%);
       transition:all 0.2s ease;
     }
