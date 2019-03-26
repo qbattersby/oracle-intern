@@ -21,8 +21,14 @@ export default new Router({
       meta: { title: 'Home' },
     },
     {
-      name: 'personalised-home',
-      path: '/:username',
+      name: 'personalised-welcome',
+      path: '/welcome',
+      children: [
+        {
+          path: ':username',
+          component: Home,
+        },
+      ],
       component: Home,
       meta: { title: 'Home' },
     },
