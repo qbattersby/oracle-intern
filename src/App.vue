@@ -206,12 +206,6 @@
       top: 50%;
       left: 50%;
     }
-    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-      .ie-play {
-        display:block;
-
-      }
-    }
   }
 
 
