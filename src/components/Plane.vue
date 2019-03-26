@@ -718,13 +718,11 @@
 	V173.6z"
       ></path>
       <g>
-        <text x="220" y="142" fill="#ffffff" style="text-transform:uppercase;font-style:italic;font-weight:700;font-size:44px">
-          <template v-if="name">
-            Welcome, {{ name }}!
-          </template>
-          <template v-else>
-            Welcome to Team Oracle
-          </template>
+        <text v-if="nameIsAcceptable" x="220" y="142" fill="#ffffff" style="text-transform:uppercase;font-style:italic;font-weight:700;font-size:44px">
+          Welcome, {{ name }}!
+        </text>
+        <text v-else x="200" y="142" fill="#ffffff" style="text-transform:uppercase;font-style:italic;font-weight:700;font-size:38px">
+          Welcome to Team Oracle
         </text>
         <g id="main-plane-message" style="enable-background:new;display:none;">
           <path
@@ -824,6 +822,28 @@ export default {
   props: {
     name: String,
   },
+  data() {
+    return {
+      acceptedNames: [
+        'maximilian',
+        'anne',
+        'daniel',
+        'ilana',
+        'parker',
+        'kenan',
+        'kaitlyn',
+        'sophia',
+        'thomas',
+        'ben',
+        'emily',
+        'anani',
+      ],
+    };
+  },
+  computed: {
+    nameIsAcceptable() {
+      return this.acceptedNames.indexOf(this.name) > -1;
+    },
+  },
 };
 </script>
-
