@@ -10,6 +10,7 @@
       viewBox="0 0 1394.4 269.6"
       style="enable-background:new 0 0 1394.4 269.6;"
       xml:space="preserve"
+      preserveAspectRatio="xMidYMid slice"
     >
       <title>main-plane</title>
       <line
@@ -847,3 +848,15 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .main-plane {
+        margin: {
+          bottom: 40px;
+          top: 0px;
+        }
+      }
+    }
+</style>
+
