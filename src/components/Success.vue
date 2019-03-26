@@ -84,7 +84,7 @@ export default {
       background-position: bottom left;
     }
     @include breakpoint(medium down) {
-      background-position: 850px bottom;
+      background-position: 77% bottom;
       background-size: cover;
     }
   }
