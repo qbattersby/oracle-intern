@@ -34,7 +34,7 @@
         <div class="class-group">
 
 
-          <slick ref="slick" :options="slickOptionsClass" @afterChange="handleAfterChange">
+          <slick ref="slick" :options="slickOptionsClass" @destroy="handleDestroy">
 
             <div class="slide">
               <div class="card">
@@ -535,15 +535,12 @@
         targetImage.src = newSource;
         targetImage.dataset.src = source;
       },
-      // handleAfterChange(event, slick, currentSlide) {
-      //   const img = $(slick.$slides.get(currentSlide)).find('.card img');
-      //   console.log(img);
-      //   const source = img.src;
-      //   const newSource = img.dataset.src;
-      //
-      //   img.src = newSource;
-      //   img.dataset.src = source;
-      // },
+      handleDestroy(event) {
+        // eslint-disable-next-line
+        console.log(event);
+        // eslint-disable-next-line
+        event.target.style = "opacity: 0";
+      },
     },
     data() {
       return {
