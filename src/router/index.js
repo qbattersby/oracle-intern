@@ -57,4 +57,11 @@ export default new Router({
       meta: { title: 'Helpful Resources' },
     },
   ],
+  scrollBehavior() {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({ x: 0, y: 0 });
+      }, 500);
+    });
+  },
 });
