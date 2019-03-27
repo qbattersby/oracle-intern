@@ -56,6 +56,10 @@ export default new Router({
       component: Resources,
       meta: { title: 'Helpful Resources' },
     },
+    {
+      path: '*',
+      redirect: '/',
+    },
   ],
   scrollBehavior() {
     return new Promise((resolve) => {
