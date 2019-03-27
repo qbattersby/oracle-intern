@@ -123,7 +123,7 @@
           <div class="cell small-12 medium-8 large-8">
             <div class="grid-x align-stretch">
               <div class="cell large-3 medium-6 small-12">
-                <div class="intern" style="background-image: url(../../static/max-sickinger.jpg)">
+                <div class="intern" style="background-image: url(static/max-sickinger.jpg)">
                   <div class="intern-info brand-darkorange">
                     <div class="details">
                       <div class="name">Max Sickinger</div>
@@ -143,7 +143,7 @@
                 </div>
               </div>
               <div class="cell large-3 medium-6 small-12">
-                <div class="intern" style="background-image: url(../../static/anne-pacholski.jpg)">
+                <div class="intern" style="background-image: url(static/anne-pacholski.jpg)">
                   <div class="intern-info brand-darkorange">
                     <div class="details">
                       <div class="name">Anne Pacholski</div>
@@ -163,7 +163,7 @@
                 </div>
               </div>
               <div class="cell large-3 medium-6 small-12">
-                <div class="intern" style="background-image: url(../../static/parker-carroway.jpg)">
+                <div class="intern" style="background-image: url(static/parker-carroway.jpg)">
                   <div class="intern-info brand-blue">
                     <div class="details">
                       <div class="name">Parker Carroway</div>
@@ -183,7 +183,7 @@
                 </div>
               </div>
               <div class="cell large-3 medium-6 small-12">
-                <div class="intern" style="background-image: url(../../static/danny-weinreb.jpg)">
+                <div class="intern" style="background-image: url(static/danny-weinreb.jpg)">
                   <div class="intern-info brand-darkblue">
                     <div class="details">
                       <div class="name">Danny Weinreb</div>
@@ -203,7 +203,7 @@
                 </div>
               </div>
               <div class="cell large-3 medium-6 small-12">
-                <div class="intern" style="background-image: url(../../static/ilana-basman.jpg)">
+                <div class="intern" style="background-image: url(static/ilana-basman.jpg)">
                   <div class="intern-info brand-green">
                     <div class="details">
                       <div class="name">Ilana Basman</div>
@@ -241,7 +241,7 @@
 
 
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/kenan-kitchen.jpg)">
+            <div class="intern" style="background-image: url(static/kenan-kitchen.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
                   <div class="name">Kenan Kitchen</div>
@@ -261,7 +261,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder5.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder5.jpg)">
               <div class="intern-info brand-darkblue">
                 <div class="details">
                   <div class="update">
@@ -273,7 +273,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder3.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
                   <div class="update">
@@ -285,7 +285,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder2.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
                   <div class="update">
@@ -297,7 +297,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder3.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
                   <div class="update">
@@ -309,7 +309,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder2.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
                   <div class="update">
@@ -334,7 +334,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder4.jpg)">
               <div class="intern-info brand-darkblue">
                 <div class="details">
                   <div class="update">
@@ -346,7 +346,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder1.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder1.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
                   <div class="update">
@@ -358,7 +358,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder6.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder6.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
                   <div class="update">
@@ -370,7 +370,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder5.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder5.jpg)">
               <div class="intern-info brand-darkorange">
                 <div class="details">
                   <div class="update">
@@ -382,7 +382,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder3.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder3.jpg)">
               <div class="intern-info brand-darkblue">
                 <div class="details">
                   <div class="update">
@@ -394,7 +394,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder4.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder4.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
                   <div class="update">
@@ -406,7 +406,7 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(../../static/placeholder2.jpg)">
+            <div class="intern" style="background-image: url(static/placeholder2.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
                   <div class="update">
@@ -536,8 +536,6 @@
         targetImage.dataset.src = source;
       },
       handleDestroy(event) {
-        // eslint-disable-next-line
-        console.log(event);
         // eslint-disable-next-line
         event.target.style = "opacity: 0";
       },
