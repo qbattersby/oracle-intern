@@ -61,7 +61,6 @@
 //  56. Xy Grid
 
 @import '~foundation-sites/scss/util/util';
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 // 1. Global
 // ---------
 
@@ -84,7 +83,7 @@ $black: #4E5052;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Roboto', sans-serif;
+$body-font-family: 'Arial', sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
