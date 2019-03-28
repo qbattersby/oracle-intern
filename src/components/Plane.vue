@@ -837,7 +837,7 @@ export default {
         'thomas',
         'ben',
         'emily',
-        'anani',
+        'janani',
       ],
     };
   },
