@@ -16,9 +16,9 @@
 
     <div class="subnav">
       <ul id="team-nav" class="menu align-center" data-smooth-scroll>
-        <li><a href="#recruitmentteam">2018 Recruitment Team </a></li>
-        <li><a href="#interns">Meet your Class</a></li>
-        <li><a href="#mentors">Meet your Mentors</a></li>
+        <li><a href="#recruitmentteam">2019 Recruitment Team</a></li>
+        <li><a href="#interns">Meet Your Class</a></li>
+        <li><a href="#mentors">Meet Your Mentors</a></li>
       </ul>
     </div>
 
@@ -115,7 +115,7 @@
                 <div class="grid-callout-copy">
                   <h3>Get Ready to Soar with Your Fellow Interns.</h3>
 
-                  <p>Introducing your Summer 2019 Class! Each of you brings a unique set of skills, background, and perspectives.</p>
+                  <p>Introducing your Summer 2019 Class! Each of you brings a unique set of skills, backgrounds, and perspectives.</p>
                 </div>
           </div>
 
@@ -328,7 +328,7 @@
                 <div class="details">
                   <p>Don’t be afraid to ask questions. This is the time to learn, so find someone that can help you grow. Step out of your comfort zone and embrace projects that will teach you something new. Most importantly, remember that the mentors care about making sure you succeed and have the best experience possible.</p>
                   <p><strong>Alicia Breyer</strong><br>
-                    Intern Class of 2017</p>
+                    Intern Class of 2016</p>
                 </div>
               </div>
             </div>
@@ -495,7 +495,7 @@
                   <img src="../assets/img/lisa-marcyes.jpg">
                   <div class="card-section">
                     <h5>Lisa Marcyes</h5>
-                    <p>Social Marketing</p>
+                    <p>Social Media</p>
                   </div>
                 </div>
               </div>

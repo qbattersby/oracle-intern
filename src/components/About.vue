@@ -24,7 +24,7 @@
       <div class="callout-content grid-container text-center">
         <h1 class="callout-heading">About Oracle</h1>
           <div class="callout-copy">
-            <p>So what exactly does Oracle do? As the only full-stack cloud provider in the world, we empower businesses of all sizes on their journey to digital transformation.</p>
+            <p>So what exactly does Oracle do? By embedding innovative technologies in every aspect of our cloud, we empower businesses of all sizes on their journey to digital transformation.</p>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
         <div class="grid-x grid-margin-x">
           <div class="cell small-12 text-center">
             <h2>Work with Global Brands</h2>
-            <p>At Oracle, you'll have the opportunity to help us power some of the world's largest and most recognizable brands. 437,000 customers in 175 countries worldwide trust Oracle to drive innovation for their businesses.</p>
+            <p>At Oracle, you'll have the opportunity to help us power some of the world's largest and most recognizable brands. 430,000 customers in 175 countries worldwide trust Oracle to drive innovation for their businesses.</p>
           </div>
         </div>
 
@@ -76,7 +76,7 @@
         <div class="grid-x grid-margin-x">
           <div class="cell small-12 text-center">
             <h2>Scale and Innovation</h2>
-            <p>Oracle is the #1 provider of business software in the world. Our Cloud redefines how businesses modernize, innovate, and compete in a digital world. We deliver innovative and integrated cloud services that allow users and developers to build, deploy, and manage workloads seamlessly—in the cloud or on-premise.</p>
+            <p>Oracle is the #1 provider of business software in the world. Our cloud redefines how businesses modernize, innovate, and compete in a digital world. We deliver integrated cloud services that allow users and developers to build, deploy, and manage workloads seamlessly.</p>
           </div>
         </div>
 
@@ -86,7 +86,7 @@
           <div class="cell medium-6 box-customers text-center">
             <div class="box-inner">
               <img src="../assets/img/globe.svg">
-              <h3>437,000</h3>
+              <h3>430,000</h3>
               <p>Customers in <strong>175 <br>countries</strong></p>
             </div>
           </div>
@@ -105,10 +105,9 @@
                 <div class="box-inner">
 
                   <h3>#9</h3>
-                  <p>In LinkedIn’s 50<br>
-                    Top Companies<br>
-                    Where the US Wants<br>
-                    To Work Now 2018</p>
+                  <p>On LinkedIn’s Top 50<br>
+                    U.S. Companies<br>
+                    to Work For in 2018</p>
                 </div>
               </div>
               <div class="cell medium-6 box box-students">
@@ -124,7 +123,7 @@
               <div class="cell medium-6 box box-patents">
                 <div class="box-inner">
                   <img src="../assets/img/patents.svg">
-                  <h3>17,000+</h3>
+                  <h3>18,000+</h3>
                   <p>Patents worldwide</p>
                 </div>
               </div>
