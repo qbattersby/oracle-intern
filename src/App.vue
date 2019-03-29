@@ -61,7 +61,7 @@
     mounted() {
       // In the future lets add a function to setAttributes, gross..
 
-      const dtmScript = document.createElement('script');
+      /* const dtmScript = document.createElement('script');
       dtmScript.setAttribute('src', 'https://www.oracle.com/asset/web/dtm/dtm-vendor.js');
       dtmScript.setAttribute('language', 'JavaScript');
       document.head.appendChild(dtmScript);
@@ -69,7 +69,7 @@
       const metricsScript = document.createElement('script');
       metricsScript.setAttribute('src', 'https://www.oracleimg.com/us/assets/metrics/ora_ocom.js');
       metricsScript.setAttribute('language', 'JavaScript');
-      document.body.appendChild(metricsScript);
+      document.body.appendChild(metricsScript); */
 
       const trusteScript = document.createElement('script');
       trusteScript.setAttribute('src', '//consent.truste.com/notice?domain=oracle.com&c=teconsent&text=true&gtm=1');
