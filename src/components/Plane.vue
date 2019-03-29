@@ -838,6 +838,12 @@ export default {
         'ben',
         'emily',
         'janani',
+        'judith',
+        'rita',
+        'sneha',
+        'louis',
+        'sarah',
+        'rebecca',
       ],
     };
   },
