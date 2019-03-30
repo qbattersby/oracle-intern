@@ -95,6 +95,8 @@
 
 
 
+
+
           </slick>
 
 
@@ -261,37 +263,51 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder5.jpg)">
+            <div class="intern" style="background-image: url(static/thomas-mcandrews.jpg)">
               <div class="intern-info brand-darkblue">
                 <div class="details">
-                  <div class="update">
-                    Who’s next? Meet more
-					of your class soon.
+                  <div class="name">
+                    Thomas McAndrews
                   </div>
+                  <div class="school">
+                    Santa Clara University
+                  </div>
+                  <p>
+                    Mentor:<br> Travis O’Hara
+                  </p>
+
+                  <p>Department:<br> Global Events</p>
+                  <p>Fun Fact: I like to sing!</p>
+
+
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder3.jpg)">
+            <div class="intern" style="background-image: url(static/ben-tarkoff.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
-                  <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
-                  </div>
+                  <div class="name">Ben Tarkoff</div>
+                  <div class="school">University of Alabama</div>
+                  <p>Mentor: <br>Paul Phillips/Shauna O’Boyle</p>
+                  <p>Department:<br> Analyst Relations</p>
+                  <p>Fun Fact: I was an internet celebrity junior year of high school for the worst shirt to wear on picture day!
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder2.jpg)">
+            <div class="intern" style="background-image: url(static/emily-dutton.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <div class="update">
-                    Who’s next? Meet more
-					of your class soon.
-                  </div>
+                  <div class="name">Emily Dutton</div>
+                  <div class="school">Wake Forest University</div>
+                  <p>Mentor:<br> Danielle Tarp</p>
+                  <p>Department:<br> Public Relations</p>
+                  <p>Fun Fact: I was hospitalized because an avocado shell got lodged in my throat while eating a taco - I’m very accident prone!</p>
+
                 </div>
               </div>
             </div>
@@ -452,6 +468,46 @@
 
               <div class="slide">
                 <div class="card">
+                  <img src="../assets/img/Shauna-green-double.jpg">
+                  <div class="card-section">
+                    <h5>Shauna O’Boyle</h5>
+                    <p>Analyst Relations</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/Paul-orange-double.jpg">
+                  <div class="card-section">
+                    <h5>Paul Phillips</h5>
+                    <p>Analyst Relations</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/Dennis-darkblue-double.jpg">
+                  <div class="card-section">
+                    <h5>Dennis MacNeil</h5>
+                    <p>Analyst Relations</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/Chip-blue-double.jpg">
+                  <div class="card-section">
+                    <h5>Chip Woerner</h5>
+                    <p>Corporate Marketing</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="card">
                   <img src="../assets/img/travis-ohara.jpg">
                   <div class="card-section">
                     <h5>Travis O’Hara</h5>
@@ -472,6 +528,26 @@
 
               <div class="slide">
                 <div class="card">
+                  <img src="../assets/img/Margo-pink-double.jpg">
+                  <div class="card-section">
+                    <h5>Margo Davis</h5>
+                    <p>Events Marketing - 3rd Party Partner</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/Sonang-blue-double.jpg">
+                  <div class="card-section">
+                    <h5>Sonang Kim</h5>
+                    <p>Global Customer Programs</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="card">
                   <img src="../assets/img/carol-sato.jpg">
                   <div class="card-section">
                     <h5>Carol Sato</h5>
@@ -479,6 +555,7 @@
                   </div>
                 </div>
               </div>
+
 
               <div class="slide">
                 <div class="card">
@@ -489,6 +566,28 @@
                   </div>
                 </div>
               </div>
+
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/Danielle-pink-double.jpg">
+                  <div class="card-section">
+                    <h5>Danielle Tarp</h5>
+                    <p>Public Relations</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/Kris-pink-double.jpg">
+                  <div class="card-section">
+                    <h5>Kris Reeves</h5>
+                    <p>Public Relations</p>
+                  </div>
+                </div>
+              </div>
+
 
               <div class="slide">
                 <div class="card">
@@ -737,11 +836,13 @@
       font-size:15px;
       color: $tertiary-color;
       font-style: italic;
+      line-height:1.2;
     }
     p:nth-of-type(2) {
       margin-bottom:0;
       margin-top:5px;
       font-size:15px;
+      line-height:1.2;
       font-style: italic;
     }
   }
@@ -758,6 +859,11 @@
     }
     @include breakpoint(medium down) {
       width:80%;
+    }
+    .card-section {
+      @include breakpoint(medium up) {
+        min-height:95px;
+      }
     }
   }
 
@@ -873,6 +979,8 @@
     transition: opacity 0.3s ease;
     display:flex;
     .details {
+      font-size:14px;
+      line-height:15px;
       @include flex-align-self(middle);
     }
     .update {
