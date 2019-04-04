@@ -313,24 +313,31 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder3.jpg)">
+            <div class="intern" style="background-image: url(static/kaitlyn-nguyen.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
                   <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
+                    <div class="name">Kaitlyn Nguyen</div>
+                    <div class="school">UC Irvine</div>
+                    <p>Mentor:<br> Paul Phillips/Shauna O’Boyle</p>
+                    <p>Department:<br> Analyst Relations</p>
+                    <p>Fun Fact: I’ve been playing tennis since I was 5!</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder2.jpg)">
+            <div class="intern" style="background-image: url(static/sophia-donovan.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
                   <div class="update">
-                    Who’s next? Meet more
-                    of your class soon.
+                    <div class="name">Sophia Donovan</div>
+                    <div class="school">University of Southern California</div>
+                    <p>Mentor:<br> Travis O’Hara</p>
+                    <p>Department:<br> Global Events</p>
+                    <p>Fun Fact: I’m adopted!</p>
+
                   </div>
                 </div>
               </div>
@@ -350,48 +357,60 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder4.jpg)">
+            <div class="intern" style="background-image: url(static/sneha-pandey.jpg)">
               <div class="intern-info brand-darkblue">
                 <div class="details">
                   <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
+                    <div class="name">Sneha Pandey</div>
+                    <div class="school">Purdue University</div>
+                    <p>Mentor:<br> Margo Davis</p>
+                    <p>Department:<br> Events Marketing - 3rd Party Partner</p>
+                    <p>Fun Fact: I mix music in my free time!</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder1.jpg)">
+            <div class="intern" style="background-image: url(static/olivia-nelson.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
                   <div class="update">
-                    Who’s next? Meet more
-					of your class soon.
+                    <div class="name">Olivia Nelson</div>
+                    <div class="school">Cal Poly SLO</div>
+                    <p>Mentor:<br> Carol Sato</p>
+                    <p>Department:<br> Public Relations</p>
+                    <p>Fun Fact: I run an Etsy shop where I sell my hand lettered artwork!</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder6.jpg)">
+            <div class="intern" style="background-image: url(static/sarah-ali.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
                   <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
+                    <div class="name">Sarah Ali</div>
+                    <div class="school">Duke University</div>
+                    <p>Mentor:<br> Celina Bertallee</p>
+                    <p>Department:<br> Public Relations</p>
+                    <p>Fun Fact: I once caught a spy while working on a political campaign!</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder5.jpg)">
+            <div class="intern" style="background-image: url(static/janani-jayesh.jpg)">
               <div class="intern-info brand-darkorange">
                 <div class="details">
                   <div class="update">
-                    Who’s next? Meet more
-					of your class soon.
+                    <div class="name">Janani Jayesh</div>
+                    <div class="school">UC Los Angeles</div>
+                    <p>Mentor:<br> Sonang Kim</p>
+                    <p>Department:<br> Global Customer Programs (GCP)</p>
+                    <p>Fun Fact: I played the drums in school!</p>
                   </div>
                 </div>
               </div>
@@ -498,10 +517,10 @@
 
               <div class="slide">
                 <div class="card">
-                  <img src="../assets/img/Chip-blue-double.jpg">
+                  <img src="../assets/img/ali-ordouadi.jpg">
                   <div class="card-section">
-                    <h5>Chip Woerner</h5>
-                    <p>Corporate Marketing</p>
+                    <h5>Ali Ordoubadi</h5>
+                    <p>Customer Visit Center</p>
                   </div>
                 </div>
               </div>

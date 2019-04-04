@@ -107,17 +107,16 @@
                   <h3>#9</h3>
                   <p>On LinkedIn’s Top 50<br>
                     U.S. Companies<br>
-                    to Work For in 2018</p>
+                    to Work For in 2019</p>
                 </div>
               </div>
               <div class="cell medium-6 box box-students">
                 <div class="box-inner">
-                  <h3>3.5M<br>
+                  <h3>6.3M<br>
                     Students</h3>
                   <p>Supported annually<br>
-                    in 120 countries<br>
-					through the Oracle<br>
-					Education Foundation</p>
+                    in 128 countries<br>
+                    through Oracle Academy</p>
                 </div>
               </div>
               <div class="cell medium-6 box box-patents">
