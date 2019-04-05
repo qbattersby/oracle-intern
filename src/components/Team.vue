@@ -316,13 +316,13 @@
             <div class="intern" style="background-image: url(static/kaitlyn-nguyen.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
-                  <div class="update">
+
                     <div class="name">Kaitlyn Nguyen</div>
                     <div class="school">UC Irvine</div>
                     <p>Mentor:<br> Paul Phillips/Shauna O’Boyle</p>
                     <p>Department:<br> Analyst Relations</p>
                     <p>Fun Fact: I’ve been playing tennis since I was 5!</p>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -331,14 +331,14 @@
             <div class="intern" style="background-image: url(static/sophia-donovan.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <div class="update">
+
                     <div class="name">Sophia Donovan</div>
                     <div class="school">University of Southern California</div>
                     <p>Mentor:<br> Travis O’Hara</p>
                     <p>Department:<br> Global Events</p>
                     <p>Fun Fact: I’m adopted!</p>
 
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -360,13 +360,13 @@
             <div class="intern" style="background-image: url(static/sneha-pandey.jpg)">
               <div class="intern-info brand-darkblue">
                 <div class="details">
-                  <div class="update">
+
                     <div class="name">Sneha Pandey</div>
                     <div class="school">Purdue University</div>
                     <p>Mentor:<br> Margo Davis</p>
                     <p>Department:<br> Events Marketing - 3rd Party Partner</p>
                     <p>Fun Fact: I mix music in my free time!</p>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -375,13 +375,13 @@
             <div class="intern" style="background-image: url(static/olivia-nelson.jpg)">
               <div class="intern-info brand-green">
                 <div class="details">
-                  <div class="update">
+
                     <div class="name">Olivia Nelson</div>
                     <div class="school">Cal Poly SLO</div>
                     <p>Mentor:<br> Carol Sato</p>
                     <p>Department:<br> Public Relations</p>
                     <p>Fun Fact: I run an Etsy shop where I sell my hand lettered artwork!</p>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -390,13 +390,13 @@
             <div class="intern" style="background-image: url(static/sarah-ali.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <div class="update">
+
                     <div class="name">Sarah Ali</div>
                     <div class="school">Duke University</div>
                     <p>Mentor:<br> Celina Bertallee</p>
                     <p>Department:<br> Public Relations</p>
                     <p>Fun Fact: I once caught a spy while working on a political campaign!</p>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -405,13 +405,13 @@
             <div class="intern" style="background-image: url(static/janani-jayesh.jpg)">
               <div class="intern-info brand-darkorange">
                 <div class="details">
-                  <div class="update">
+
                     <div class="name">Janani Jayesh</div>
                     <div class="school">UC Los Angeles</div>
                     <p>Mentor:<br> Sonang Kim</p>
                     <p>Department:<br> Global Customer Programs (GCP)</p>
                     <p>Fun Fact: I played the drums in school!</p>
-                  </div>
+                 
                 </div>
               </div>
             </div>
