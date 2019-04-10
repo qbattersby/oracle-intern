@@ -116,7 +116,7 @@
                     Students</h3>
                   <p>Supported annually<br>
                     in 128 countries<br>
-                    through Oracle Academy</p>
+                    through Oracle&nbsp;Academy</p>
                 </div>
               </div>
               <div class="cell medium-6 box box-patents">
@@ -298,6 +298,7 @@ export default {
     text-align: center;
     margin-bottom:20px;
     height:280px;
+    padding: 1rem;
     img {
       width:40%;
       height:auto;
