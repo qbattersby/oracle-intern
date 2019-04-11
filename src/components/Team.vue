@@ -998,32 +998,33 @@
     transition: opacity 0.3s ease;
     display:flex;
     .details {
-      font-size:14px;
-      line-height:15px;
+      font-size:18px;
+      line-height:1.2;
       @include flex-align-self(middle);
+
+      @media screen and (min-width: 1024px) and (max-height: 768px) {
+        font-size: 15px;
+      }
     }
     .update {
       text-align:center;
-      font-size:18px;
-      line-height:22px;
+      font-size:20px;
     }
     p {
-      font-size:14px;
+      font-size:0.8em;
+      line-height: 1.2;
       margin-top:10px;
       margin-bottom:0;
-      line-height:15px;
     }
     .name {
-      font-size:18px;
+      font-size:1em;
       display:block;
       margin-bottom:0;
-      line-height:18px;
     }
     .school {
-      font-size:16px;
+      font-size:0.9em;
       display:block;
       margin-bottom:0;
-      line-height:16px;
     }
   }
 
