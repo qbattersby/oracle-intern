@@ -844,6 +844,8 @@ export default {
         'louis',
         'sarah',
         'rebecca',
+        'olivia',
+        'nikky',
       ],
     };
   },

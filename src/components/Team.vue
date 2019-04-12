@@ -1075,6 +1075,41 @@ export default {
     font-size: 14px;
     p {
       line-height: 1.3;
+
+  .intern-info {
+    height:100%;
+    padding:20px;
+    opacity:0;
+    transition: opacity 0.3s ease;
+    display:flex;
+    .details {
+      font-size:18px;
+      line-height:1.2;
+      @include flex-align-self(middle);
+
+      @media screen and (min-width: 1024px) and (max-height: 768px) {
+        font-size: 15px;
+      }
+    }
+    .update {
+      text-align:center;
+      font-size:20px;
+    }
+    p {
+      font-size:0.8em;
+      line-height: 1.2;
+      margin-top:10px;
+      margin-bottom:0;
+    }
+    .name {
+      font-size:1em;
+      display:block;
+      margin-bottom:0;
+    }
+    .school {
+      font-size:0.9em;
+      display:block;
+      margin-bottom:0;
     }
   }
   @include breakpoint(medium down) {
