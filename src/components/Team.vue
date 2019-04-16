@@ -411,43 +411,46 @@
                     <p>Mentor:<br> Sonang Kim</p>
                     <p>Department:<br> Global Customer Programs (GCP)</p>
                     <p>Fun Fact: I played the drums in school!</p>
-                 
+
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder3.jpg)">
+            <div class="intern" style="background-image: url(static/abbie-schulz.jpg)">
               <div class="intern-info brand-darkblue">
                 <div class="details">
-                  <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
-                  </div>
+                 <div class="name">Abbie Schulz</div>
+                    <div class="school">Santa Clara University</div>
+                    <p>Mentor:<br> Kris Reeves</p>
+                    <p>Department:<br> Public Relations</p>
+                    <p>Fun Fact: I have traveled to Cuba!</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder4.jpg)">
+            <div class="intern" style="background-image: url(static/louis-siegler.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <div class="update">
-                    Who’s next? Meet more
-					of your class soon.
-                  </div>
+                  <div class="name">Louis Siegler</div>
+                    <div class="school">Yale University</div>
+                    <p>Mentor:<br> Sonang Kim</p>
+                    <p>Department:<br> Global Customer Programs</p>
+                    <p>Fun Fact: I am a tennis player!</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/placeholder2.jpg)">
+            <div class="intern" style="background-image: url(static/nikky-price.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <div class="update">
-                    Come back soon to meet
-                    more fellow interns!
-                  </div>
+                    <div class="name">Nikky Price</div>
+                    <div class="school">College of William &amp; Mary</div>
+                    <p>Mentor:<br> Paul Phillips</p>
+                    <p>Department:<br> Analyst Relations</p>
+                    <p>Fun Fact: I learned how to ride a dirt bike at 6 years old!</p>
                 </div>
               </div>
             </div>

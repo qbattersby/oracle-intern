@@ -136,7 +136,9 @@ section {
 
 
 // Calendar Global
-
+.vuecal__event--overlapping.vuecal__event--split2 {
+  left:0;
+}
 .vuecal {
   box-shadow: none;
   -webkit-box-shadow: none;
