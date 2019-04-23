@@ -255,18 +255,27 @@
       </div>
       <div class="grid-container fluid">
         <div class="grid-x align-center">
-          <div class="cell large-9 small-12 calendar">
+          <div class="cell large-10 medium-11 small-12 calendar hide-for-small-only">
             <vue-cal
                      :time="false"
                      hide-view-selector
-                     :disable-views="['years', 'year', 'week', 'day']"
+                     :disable-views="['years', 'year', 'week']"
                      default-view="month"
                      events-on-month-view="short"
                      :events="events"
                      @event-mouse-enter="tip"
                      @event-focus="tip">
             </vue-cal>
-
+          </div>
+          <div class="cell show-for-small-only small-12 mini-calendar">
+            <vue-cal xsmall
+                     default-view="month"
+                     click-to-navigate
+                     :disable-views="['years', 'year', 'week']"
+                     :events="events"
+                     @event-mouse-enter="tip"
+                     @event-focus="tip">
+            </vue-cal>
           </div>
         </div>
       </div>
