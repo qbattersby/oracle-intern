@@ -46,7 +46,7 @@
               </div>
             </a>
             <a class="cell" href="https://eeho.fa.us2.oraclecloud.com/hcmUI/faces/FuseWelcome?_afrLoop=7660151881527272&_afrWindowMode=0&_afrWindowId=null&_adf.ctrl-state=nx4kid7r_195&_afrFS=16&_afrMT=screen&_afrMFW=1280&_afrMFH=610&_afrMFDW=1280&_afrMFDH=720&_afrMFC=8&_afrMFCI=0&_afrMFM=0&_afrMFR=144&_afrMFG=0&_afrMFS=0&_afrMFO=0">
-              <img src="../assets/img/beehive.jpg">
+              <img src="../assets/img/selfserve.jpg">
               <div class="resource-content">
                 <h5>Self-Service Apps</h5>
                 Don’t forget to fill out your timecard at the end of each week!
@@ -155,7 +155,7 @@
                 </div>
               </div>
               <div class="cell medium-6">
-                <img src="../assets/img/rideshare.jpg">
+                <img src="../assets/img/cafes.jpg">
                 <div class="resource-content">
                   <h5>Campus Cafes</h5>
                 </div>
