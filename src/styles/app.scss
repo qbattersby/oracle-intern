@@ -149,6 +149,13 @@ section {
     }
 
   }
+  .vuecal__cells {
+    height: 100%;
+
+    & > .vuecal__flex {
+      height: 100%;
+    }
+  }
   .vuecal__arrow {
     background:white;.button {
     background: $secondary-color;
