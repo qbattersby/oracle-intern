@@ -455,13 +455,28 @@
               </div>
             </div>
           </div>
-          <div class="cell medium-4 large-4 small-12">
-            <div class="quote brand-orange">
-              <div class="quote-info">
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(static/tyler-wang.jpg)">
+              <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <p>Always be constantly curious and eager to learn.</p>
-                  <p><strong>Nathan Bao</strong><br>
-                    Intern Class of 2017</p>
+                    <div class="name">Tyler Wang</div>
+                    <div class="school">UC Berkeley</div>
+                    <p>Mentor:<br> Ali Ordoubadi</p>
+                    <p>Department:<br> Customer Visit Center</p>
+                    <p>Fun Fact: I love Boba!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(static/tyler-rosselli.jpg)">
+              <div class="intern-info brand-darkgreen">
+                <div class="details">
+                    <div class="name">Tyler Rosselli</div>
+                    <div class="school">University of Southern California</div>
+                    <p>Mentor:<br> Willie Lee</p>
+                    <p>Department:<br> Marketing Operations</p>
+                    <p>Fun Fact: I’m left-handed!</p>
                 </div>
               </div>
             </div>
