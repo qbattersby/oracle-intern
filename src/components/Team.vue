@@ -517,7 +517,17 @@
                   </div>
                 </div>
               </div>
-
+              
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/chip-woerner.jpg">
+                  <div class="card-section">
+                    <h5>Chip Woerner</h5>
+                    <p>Corporate Marketing</p>
+                  </div>
+                </div>
+              </div>
+              
               <div class="slide">
                 <div class="card">
                   <img src="../assets/img/ali-ordouadi.jpg">
@@ -610,6 +620,15 @@
                 </div>
               </div>
 
+              <div class="slide">
+                <div class="card">
+                  <img src="../assets/img/willie-lee.jpg">
+                  <div class="card-section">
+                    <h5>Willie Lee</h5>
+                    <p>Marketing Operations</p>
+                  </div>
+                </div>
+              </div>
 
               <div class="slide">
                 <div class="card">
