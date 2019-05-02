@@ -125,86 +125,6 @@
           <div class="cell small-12 medium-8 large-8">
             <div class="grid-x align-stretch">
               <div class="cell large-3 medium-6 small-12">
-                <div class="intern" style="background-image: url(static/max-sickinger.jpg)">
-                  <div class="intern-info brand-darkorange">
-                    <div class="details">
-                      <div class="name">Max Sickinger</div>
-                      <div class="school">Claremont McKenna College</div>
-                      <p>Mentor:<br>
-                        Chip Woerner
-                      </p>
-
-                      <p>Department:<br>
-                        Corporate Marketing
-                      </p>
-                      <p>
-                        Fun fact: I’m Swiss but speak Spanish!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="cell large-3 medium-6 small-12">
-                <div class="intern" style="background-image: url(static/anne-pacholski.jpg)">
-                  <div class="intern-info brand-darkorange">
-                    <div class="details">
-                      <div class="name">Anne Pacholski</div>
-                      <div class="school">Indiana University</div>
-                      <p>Mentor:<br>
-                        Sonang Kim
-                      </p>
-
-                      <p>Department:<br>
-                        Global Customer Programs (GCP)
-                      </p>
-                      <p>
-                        Fun fact: I won a car my freshman year of high school in a raffle!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="cell large-3 medium-6 small-12">
-                <div class="intern" style="background-image: url(static/parker-carroway.jpg)">
-                  <div class="intern-info brand-blue">
-                    <div class="details">
-                      <div class="name">Parker Carroway</div>
-                      <div class="school">University of Oklahoma</div>
-                      <p>Mentor:<br>
-                        Julian Edwards
-                      </p>
-
-                      <p>Department:<br>
-                        Event Marketing
-                      </p>
-                      <p>
-                        Fun fact: I’m obsessed with discovering music!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="cell large-3 medium-6 small-12">
-                <div class="intern" style="background-image: url(static/danny-weinreb.jpg)">
-                  <div class="intern-info brand-darkblue">
-                    <div class="details">
-                      <div class="name">Danny Weinreb</div>
-                      <div class="school">Indiana University</div>
-                      <p>Mentor:<br>
-                        Lisa Marcyes
-                      </p>
-
-                      <p>Department:<br>
-                        Social Media
-                      </p>
-                      <p>
-                        Fun fact: I love sports!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="cell large-3 medium-6 small-12">
                 <div class="intern" style="background-image: url(static/ilana-basman.jpg)">
                   <div class="intern-info brand-green">
                     <div class="details">
@@ -220,6 +140,59 @@
                       <p>
                         Fun fact: I’ve visited 32 countries!
                       </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cell large-3 medium-6 small-12">
+                <div class="intern" style="background-image: url(static/kaitlyn-nguyen.jpg)">
+                  <div class="intern-info brand-green">
+                    <div class="details">
+                      <div class="name">Kaitlyn Nguyen</div>
+                      <div class="school">UC Irvine</div>
+                      <p>Mentor:<br> Paul Phillips/Shauna O’Boyle</p>
+                      <p>Department:<br> Analyst Relations</p>
+                      <p>Fun Fact: I’ve been playing tennis since I was 5!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cell large-3 medium-6 small-12">
+              <div class="intern" style="background-image: url(static/ben-tarkoff.jpg)">
+                <div class="intern-info brand-green">
+                  <div class="details">
+                    <div class="name">Ben Tarkoff</div>
+                    <div class="school">University of Alabama</div>
+                    <p>Mentor: <br>Paul Phillips/Shauna O’Boyle</p>
+                    <p>Department:<br> Analyst Relations</p>
+                    <p>Fun Fact: I was an internet celebrity junior year of high school for the worst shirt to wear on picture day!
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cell large-3 medium-6 small-12">
+                <div class="intern" style="background-image: url(static/nikky-price.jpg)">
+                  <div class="intern-info brand-darkgreen">
+                    <div class="details">
+                        <div class="name">Nikky Price</div>
+                        <div class="school">College of William &amp; Mary</div>
+                        <p>Mentor:<br> Paul Phillips</p>
+                        <p>Department:<br> Analyst Relations</p>
+                        <p>Fun Fact: I learned how to ride a dirt bike at 6 years old!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cell large-3 medium-6 small-12">
+                <div class="intern" style="background-image: url(static/max-sickinger.jpg)">
+                  <div class="intern-info brand-darkorange">
+                    <div class="details">
+                      <div class="name">Max Sickinger</div>
+                      <div class="school">Claremont McKenna College</div>
+                      <p>Mentor:<br> Chip Woerner</p>
+                      <p>Department:<br> orporate Marketing</p>
+                      <p>Fun fact: I’m Swiss but speak Spanish! </p>
                     </div>
                   </div>
                 </div>
@@ -243,21 +216,61 @@
 
 
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/kenan-kitchen.jpg)">
+            <div class="intern" style="background-image: url(static/tyler-wang.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-                  <div class="name">Kenan Kitchen</div>
-                  <div class="school">Georgetown University</div>
-                  <p>Mentor:<br>
-                    Jason Williamson
-                  </p>
+                    <div class="name">Tyler Wang</div>
+                    <div class="school">UC Berkeley</div>
+                    <p>Mentor:<br> Ali Ordoubadi</p>
+                    <p>Department:<br> Customer Visit Center</p>
+                    <p>Fun Fact: I love Boba!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(static/sneha-pandey.jpg)">
+              <div class="intern-info brand-darkblue">
+                <div class="details">
 
-                  <p>Department:<br>
-                    Startup Ecosystem
-                  </p>
-                  <p>
-                    Fun fact: I have been to 27 countries!
-                  </p>
+                    <div class="name">Sneha Pandey</div>
+                    <div class="school">Purdue University</div>
+                    <p>Mentor:<br> Margo Davis</p>
+                    <p>Department:<br> Events Marketing - 3rd Party Partner</p>
+                    <p>Fun Fact: I mix music in my free time!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+                <div class="intern" style="background-image: url(static/parker-carroway.jpg)">
+                  <div class="intern-info brand-blue">
+                    <div class="details">
+                      <div class="name">Parker Carroway</div>
+                      <div class="school">University of Oklahoma</div>
+                      <p>Mentor:<br>
+                        Julian Edwards
+                      </p>
+
+                      <p>Department:<br>
+                        Event Marketing
+                      </p>
+                      <p>
+                        Fun fact: I’m obsessed with discovering music!
+                      </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(static/sophia-donovan.jpg)">
+              <div class="intern-info brand-darkgreen">
+                <div class="details">
+                    <div class="name">Sophia Donovan</div>
+                    <div class="school">University of Southern California</div>
+                    <p>Mentor:<br> Travis O’Hara</p>
+                    <p>Department:<br> Global Events</p>
+                    <p>Fun Fact: I’m adopted!</p>
                 </div>
               </div>
             </div>
@@ -278,67 +291,19 @@
 
                   <p>Department:<br> Global Events</p>
                   <p>Fun Fact: I like to sing!</p>
-
-
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/ben-tarkoff.jpg)">
-              <div class="intern-info brand-green">
+            <div class="intern" style="background-image: url(static/janani-jayesh.jpg)">
+              <div class="intern-info brand-darkorange">
                 <div class="details">
-                  <div class="name">Ben Tarkoff</div>
-                  <div class="school">University of Alabama</div>
-                  <p>Mentor: <br>Paul Phillips/Shauna O’Boyle</p>
-                  <p>Department:<br> Analyst Relations</p>
-                  <p>Fun Fact: I was an internet celebrity junior year of high school for the worst shirt to wear on picture day!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/emily-dutton.jpg)">
-              <div class="intern-info brand-darkgreen">
-                <div class="details">
-                  <div class="name">Emily Dutton</div>
-                  <div class="school">Wake Forest University</div>
-                  <p>Mentor:<br> Danielle Tarp</p>
-                  <p>Department:<br> Public Relations</p>
-                  <p>Fun Fact: I was hospitalized because an avocado shell got lodged in my throat while eating a taco - I’m very accident prone!</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/kaitlyn-nguyen.jpg)">
-              <div class="intern-info brand-green">
-                <div class="details">
-
-                    <div class="name">Kaitlyn Nguyen</div>
-                    <div class="school">UC Irvine</div>
-                    <p>Mentor:<br> Paul Phillips/Shauna O’Boyle</p>
-                    <p>Department:<br> Analyst Relations</p>
-                    <p>Fun Fact: I’ve been playing tennis since I was 5!</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/sophia-donovan.jpg)">
-              <div class="intern-info brand-darkgreen">
-                <div class="details">
-
-                    <div class="name">Sophia Donovan</div>
-                    <div class="school">University of Southern California</div>
-                    <p>Mentor:<br> Travis O’Hara</p>
-                    <p>Department:<br> Global Events</p>
-                    <p>Fun Fact: I’m adopted!</p>
-
-
+                    <div class="name">Janani Jayesh</div>
+                    <div class="school">UC Los Angeles</div>
+                    <p>Mentor:<br> Sonang Kim</p>
+                    <p>Department:<br> Global Customer Programs (GCP)</p>
+                    <p>Fun Fact: I played the drums in school!</p>
                 </div>
               </div>
             </div>
@@ -357,31 +322,47 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/sneha-pandey.jpg)">
-              <div class="intern-info brand-darkblue">
+            <div class="intern" style="background-image: url(static/louis-siegler.jpg)">
+              <div class="intern-info brand-darkgreen">
                 <div class="details">
-
-                    <div class="name">Sneha Pandey</div>
-                    <div class="school">Purdue University</div>
-                    <p>Mentor:<br> Margo Davis</p>
-                    <p>Department:<br> Events Marketing - 3rd Party Partner</p>
-                    <p>Fun Fact: I mix music in my free time!</p>
-
+                  <div class="name">Louis Siegler</div>
+                    <div class="school">Yale University</div>
+                    <p>Mentor:<br> Sonang Kim</p>
+                    <p>Department:<br> Global Customer Programs</p>
+                    <p>Fun Fact: I am a tennis player!</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/olivia-nelson.jpg)">
-              <div class="intern-info brand-green">
+                <div class="intern" style="background-image: url(static/anne-pacholski.jpg)">
+                  <div class="intern-info brand-darkorange">
+                    <div class="details">
+                      <div class="name">Anne Pacholski</div>
+                      <div class="school">Indiana University</div>
+                      <p>Mentor:<br>
+                        Sonang Kim
+                      </p>
+
+                      <p>Department:<br>
+                        Global Customer Programs (GCP)
+                      </p>
+                      <p>
+                        Fun fact: I won a car my freshman year of high school in a raffle!
+                      </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cell medium-4 large-2 small-12">
+            <div class="intern" style="background-image: url(static/tyler-rosselli.jpg)">
+              <div class="intern-info brand-darkgreen">
                 <div class="details">
-
-                    <div class="name">Olivia Nelson</div>
-                    <div class="school">Cal Poly SLO</div>
-                    <p>Mentor:<br> Carol Sato</p>
-                    <p>Department:<br> Public Relations</p>
-                    <p>Fun Fact: I run an Etsy shop where I sell my hand lettered artwork!</p>
-
+                    <div class="name">Tyler Rosselli</div>
+                    <div class="school">University of Southern California</div>
+                    <p>Mentor:<br> Willie Lee</p>
+                    <p>Department:<br> Marketing Operations</p>
+                    <p>Fun Fact: I’m left-handed!</p>
                 </div>
               </div>
             </div>
@@ -390,28 +371,24 @@
             <div class="intern" style="background-image: url(static/sarah-ali.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-
                     <div class="name">Sarah Ali</div>
                     <div class="school">Duke University</div>
                     <p>Mentor:<br> Celina Bertallee</p>
                     <p>Department:<br> Public Relations</p>
                     <p>Fun Fact: I once caught a spy while working on a political campaign!</p>
-
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/janani-jayesh.jpg)">
-              <div class="intern-info brand-darkorange">
+            <div class="intern" style="background-image: url(static/emily-dutton.jpg)">
+              <div class="intern-info brand-darkgreen">
                 <div class="details">
-
-                    <div class="name">Janani Jayesh</div>
-                    <div class="school">UC Los Angeles</div>
-                    <p>Mentor:<br> Sonang Kim</p>
-                    <p>Department:<br> Global Customer Programs (GCP)</p>
-                    <p>Fun Fact: I played the drums in school!</p>
-
+                  <div class="name">Emily Dutton</div>
+                  <div class="school">Wake Forest University</div>
+                  <p>Mentor:<br> Danielle Tarp</p>
+                  <p>Department:<br> Public Relations</p>
+                  <p>Fun Fact: I was hospitalized because an avocado shell got lodged in my throat while eating a taco - I’m very accident prone!</p>
                 </div>
               </div>
             </div>
@@ -430,53 +407,54 @@
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/louis-siegler.jpg)">
-              <div class="intern-info brand-darkgreen">
+            <div class="intern" style="background-image: url(static/olivia-nelson.jpg)">
+              <div class="intern-info brand-green">
                 <div class="details">
-                  <div class="name">Louis Siegler</div>
-                    <div class="school">Yale University</div>
-                    <p>Mentor:<br> Sonang Kim</p>
-                    <p>Department:<br> Global Customer Programs</p>
-                    <p>Fun Fact: I am a tennis player!</p>
+                    <div class="name">Olivia Nelson</div>
+                    <div class="school">Cal Poly SLO</div>
+                    <p>Mentor:<br> Carol Sato</p>
+                    <p>Department:<br> Public Relations</p>
+                    <p>Fun Fact: I run an Etsy shop where I sell my hand lettered artwork!</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/nikky-price.jpg)">
-              <div class="intern-info brand-darkgreen">
-                <div class="details">
-                    <div class="name">Nikky Price</div>
-                    <div class="school">College of William &amp; Mary</div>
-                    <p>Mentor:<br> Paul Phillips</p>
-                    <p>Department:<br> Analyst Relations</p>
-                    <p>Fun Fact: I learned how to ride a dirt bike at 6 years old!</p>
+                <div class="intern" style="background-image: url(static/danny-weinreb.jpg)">
+                  <div class="intern-info brand-darkblue">
+                    <div class="details">
+                      <div class="name">Danny Weinreb</div>
+                      <div class="school">Indiana University</div>
+                      <p>Mentor:<br>
+                        Lisa Marcyes
+                      </p>
+
+                      <p>Department:<br>
+                        Social Media
+                      </p>
+                      <p>
+                        Fun fact: I love sports!
+                      </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/tyler-wang.jpg)">
+            <div class="intern" style="background-image: url(static/kenan-kitchen.jpg)">
               <div class="intern-info brand-darkgreen">
                 <div class="details">
-                    <div class="name">Tyler Wang</div>
-                    <div class="school">UC Berkeley</div>
-                    <p>Mentor:<br> Ali Ordoubadi</p>
-                    <p>Department:<br> Customer Visit Center</p>
-                    <p>Fun Fact: I love Boba!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell medium-4 large-2 small-12">
-            <div class="intern" style="background-image: url(static/tyler-rosselli.jpg)">
-              <div class="intern-info brand-darkgreen">
-                <div class="details">
-                    <div class="name">Tyler Rosselli</div>
-                    <div class="school">University of Southern California</div>
-                    <p>Mentor:<br> Willie Lee</p>
-                    <p>Department:<br> Marketing Operations</p>
-                    <p>Fun Fact: I’m left-handed!</p>
+                  <div class="name">Kenan Kitchen</div>
+                  <div class="school">Georgetown University</div>
+                  <p>Mentor:<br>
+                    Jason Williamson
+                  </p>
+
+                  <p>Department:<br>
+                    Startup Ecosystem
+                  </p>
+                  <p>
+                    Fun fact: I have been to 27 countries!
+                  </p>
                 </div>
               </div>
             </div>
