@@ -82,54 +82,54 @@
           </div>
 
           <div class="ghost-resources grid-x grid-margin-x small-up-1 medium-up-2 large-up-3 ">
-            <div class="cell">
+            <a href="#" class="cell">
               <div class="ghost-front">
                 <h5>Media Manager</h5>
               </div>
               <div class="ghost-back text-center">
                 Discover and download any Oracle asset - from word templates to videos!
               </div>
-            </div>
-            <div class="cell">
+            </a>
+            <a href="#" class="cell">
               <div class="ghost-front">
                 <h5>Oracle Powerpoint Template</h5>
               </div>
               <div class="ghost-back text-center">
                 Download the 2019 PPT template to use throughout your internship.
               </div>
-            </div>
-            <div class="cell">
+            </a>
+            <a href="#" class="cell">
               <div class="ghost-front">
                 <h5>Icon Library PPT</h5>
               </div>
               <div class="ghost-back text-center">
                 Need an icon for a presentation? Download this PPT to access Oracle’s icon library.
               </div>
-            </div>
-            <div class="cell">
+            </a>
+            <a href="#" class="cell">
               <div class="ghost-front">
                 <h5>Persona Central</h5>
               </div>
               <div class="ghost-back text-center">
                 Use this portal when you need some help creating content for your target audience.
               </div>
-            </div>
-            <div class="cell">
+            </a>
+            <a href="#" class="cell">
               <div class="ghost-front">
                 <h5>Modern Marketing Website</h5>
               </div>
               <div class="ghost-back text-center">
                 Get started with marketing campaigns and on-demand training here.
               </div>
-            </div>
-            <div class="cell">
+            </a>
+            <a href="#" class="cell">
               <div class="ghost-front">
                 <h5>Oracle Editorial Brand Resources</h5>
               </div>
               <div class="ghost-back text-center">
                 Need to check your messaging? Find the Corporate Terminology and Style Guide, Oracle Voice, and more here.
               </div>
-            </div>
+            </a>
 
           </div>
 
@@ -148,18 +148,18 @@
           </div>
           <div class="cell medium-7">
             <div class="grid-x grid-margin-x transportation-resources">
-              <div class="cell medium-6">
+              <a href="#" class="cell medium-6">
                 <img src="../assets/img/free-transportation.jpg">
                 <div class="resource-content">
                   <h5>Free Transportation</h5>
                 </div>
-              </div>
-              <div class="cell medium-6">
+              </a>
+              <a href="#" class="cell medium-6">
                 <img src="../assets/img/cafes.jpg">
                 <div class="resource-content">
                   <h5>Campus Cafes</h5>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
