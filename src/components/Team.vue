@@ -315,7 +315,7 @@
               <div class="intern-info brand-darkorange">
                 <div class="details">
                     <div class="name">Janani Jayesh</div>
-                    <div class="school">UC Los Angeles</div>
+                    <div class="school">UCLA</div>
                     <p>Mentor:<br> Sonang Kim</p>
                     <p>Department:<br> Global Customer Programs (GCP)</p>
                     <p>Fun Fact: I played the drums in school!</p>
