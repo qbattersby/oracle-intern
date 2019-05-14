@@ -191,20 +191,35 @@
                       <div class="name">Max Sickinger</div>
                       <div class="school">Claremont McKenna College</div>
                       <p>Mentor:<br> Chip Woerner</p>
-                      <p>Department:<br> orporate Marketing</p>
+                      <p>Department:<br> Corporate Marketing</p>
                       <p>Fun fact: I’m Swiss but speak Spanish! </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="cell large-9 medium-6 small-12">
+              <div class="cell large-6 medium-6 small-12">
                 <div class="quote brand-burgundy">
                   <div class="quote-info">
                     <div class="details">
                       <p>Be polite and follow up as much as possible. As an intern, you will be remembered for not only the work you do, but also the type of person you are.</p>
                       <p><strong>Travis Pillon</strong><br>
                         Intern Class of 2015</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="cell large-3 medium-6 small-12">
+                <div class="intern" style="background-image: url(static/jalyn-hayes.jpg)">
+                  <div class="intern-info brand-darkorange">
+                    <div class="details">
+                      <div class="name">Jalyn Hayes</div>
+                      <div class="school">CSU San Bernardino</div>
+                      <p>Mentor:<br> Chip Woerner</p>
+                      <p>Department:<br> Corporate Marketing</p>
+                      <p>Fun fact: I taught myself ASL in 7th grade! </p>
                     </div>
                   </div>
                 </div>
@@ -510,7 +525,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="slide">
                 <div class="card">
                   <img src="../assets/img/chip-woerner.jpg">
@@ -520,7 +535,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="slide">
                 <div class="card">
                   <img src="../assets/img/ali-ordouadi.jpg">
