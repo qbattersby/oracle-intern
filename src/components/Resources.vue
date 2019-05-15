@@ -255,7 +255,7 @@
             start: '2019-06-27 11:30',
             end: '2019-06-27 14:00',
             title: 'Oracle Intern Picnic',
-            contentFull: '<p><em>Social</em></p><p><strong>Time:</strong> 11:30am - 2pm</p><p><strong>Location:</strong> Oracle Ampitheater</p>',
+            contentFull: '<p><em>Social</em></p><p><strong>Time:</strong> 11:30am - 2pm</p><p><strong>Location:</strong> Oracle Amphitheater</p>',
           },
           {
             start: '2019-07-02 8:30',
@@ -291,7 +291,7 @@
             start: '2019-07-24 12:45',
             end: '2019-07-24 19:00',
             title: 'SF Giants vs. Chicago Cubs',
-            contentFull: '<p><em>Social</em></p><p><strong>em:</strong> 12:45pm</p><p><strong>Location:</strong> Oracle Park</p>',
+            contentFull: '<p><em>Social</em></p><p><strong>Time:</strong> 12:45pm</p><p><strong>Location:</strong> Oracle Park</p>',
           },
           {
             start: '2019-07-31 8:30',
