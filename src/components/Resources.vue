@@ -16,7 +16,7 @@
     <div class="subnav">
       <ul id="resources-nav" class="menu align-center" data-smooth-scroll>
         <li><a href="#general">General Resources</a></li>
-        <li><a href="#marketing">Marketing, Brand & Editorial Resources</a></li>
+        <li><a href="#marketing">Marketing Resources</a></li>
         <li><a href="#transportation">Campus & Transportation</a></li>
         <li><a href="#events">Events</a></li>
       </ul>
@@ -28,7 +28,7 @@
         <div class="grid-x grid-margin-x align-center">
           <div class="section-callout text-center cell medium-8">
             <h2>General Resources</h2>
-            <p>Here are some important resources you’ll use everyday!</p>
+            <p>Here are some important resources you’ll use every day!</p>
           </div>
           <div class="resources grid-x grid-margin-x small-up-1 medium-up-3 large-up-5 align-center">
             <a class="cell" href="https://oradocs-corp.sites.us2.oraclecloud.com/authsite/home/">
@@ -52,7 +52,7 @@
                 Don’t forget to fill out your timecard at the end of each week!
               </div>
             </a>
-            <a class="cell" href="#">
+            <a class="cell">
               <img src="../assets/img/ithelp.jpg">
               <div class="resource-content">
                 <h5>IT Help Desk</h5>
@@ -63,7 +63,7 @@
               <img src="../assets/img/badging.jpg">
               <div class="resource-content" style="width:100%;">
                 <h5>Badging Office</h5>
-                We know how easy it is to misplace your ID, so stop by the badging office to replace it any time, for free! Email badges_us@oracle.com or stop by the 600 building.
+                If you need to replace your ID, don't worry it's free! Email badges_us@oracle.com or stop by the 600 building.
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@
           </div>
 
           <div class="ghost-resources grid-x grid-margin-x small-up-1 medium-up-2 large-up-3 ">
-            <a href="#" class="cell">
+            <a href="http://omm.us.oracle.com/" class="cell">
               <div class="ghost-front">
                 <h5>Media Manager</h5>
               </div>
@@ -90,7 +90,7 @@
                 Discover and download any Oracle asset - from word templates to videos!
               </div>
             </a>
-            <a href="#" class="cell">
+            <a href="https://omm.us.oracle.com:11443/otmm/ux-html/?p=collection%2Furl_selection%2F30870974" class="cell">
               <div class="ghost-front">
                 <h5>Oracle Powerpoint Template</h5>
               </div>
@@ -98,7 +98,7 @@
                 Download the 2019 PPT template to use throughout your internship.
               </div>
             </a>
-            <a href="#" class="cell">
+            <a href="https://omm.us.oracle.com:11443/otmm/ux-html/?p=searchResults%2Ficonography%400x100xascxOTMM_SEARCH_ID_RELEVANCE%40Mw%253D%253D%40ZW5fVVM%253D%40Mg%253D%253D%40dW5kZWZpbmVk%40JTIyJTdCJTVDJTIyZmFjZXRzJTVDJTIyJTNBJTVCJTVEJTdEJTIy%40%2522%257B%257D%2522%2F30787645%40MetaData" class="cell">
               <div class="ghost-front">
                 <h5>Icon Library PPT</h5>
               </div>
@@ -106,7 +106,7 @@
                 Need an icon for a presentation? Download this PPT to access Oracle’s icon library.
               </div>
             </a>
-            <a href="#" class="cell">
+            <a href="https://stbeehive.oracle.com/content/dav/st/Persona%20Central/Public%20Documents/Archive/Persona.html" class="cell">
               <div class="ghost-front">
                 <h5>Persona Central</h5>
               </div>
@@ -114,7 +114,7 @@
                 Use this portal when you need some help creating content for your target audience.
               </div>
             </a>
-            <a href="#" class="cell">
+            <a href="https://go.oracle.com/modernmarketing" class="cell">
               <div class="ghost-front">
                 <h5>Modern Marketing Website</h5>
               </div>
@@ -122,7 +122,7 @@
                 Get started with marketing campaigns and on-demand training here.
               </div>
             </a>
-            <a href="#" class="cell">
+            <a href="https://my.oracle.com/site/mktg/creative/cnt2631740.html" class="cell">
               <div class="ghost-front">
                 <h5>Oracle Editorial Brand Resources</h5>
               </div>
@@ -148,13 +148,13 @@
           </div>
           <div class="cell medium-7">
             <div class="grid-x grid-margin-x transportation-resources">
-              <a href="#" class="cell medium-6">
+              <a href="https://docs.oracle.com/cd/E80649_01/pdfs/Shuttle%20Service%20Information.pdf" class="cell medium-6">
                 <img src="../assets/img/free-transportation.jpg">
                 <div class="resource-content">
                   <h5>Free Transportation</h5>
                 </div>
               </a>
-              <a href="#" class="cell medium-6">
+              <a href="https://oraclehq.cafebonappetit.com/" class="cell medium-6">
                 <img src="../assets/img/cafes.jpg">
                 <div class="resource-content">
                   <h5>Campus Cafes</h5>
