@@ -283,9 +283,15 @@ section {
   h5 {
     font-size:15px;
     font-weight:bold;
-    color: $tertiary-color;
+    color: $secondary-color;
     margin-bottom:8px;
     margin-top:0;
+  }
+  p:first-of-type {
+    margin-top:-6px;
+    em {
+      color: $tertiary-color;
+    }
   }
 }
 
