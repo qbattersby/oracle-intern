@@ -11,13 +11,13 @@
             <li><router-link to="/meet-the-team" exact>Meet the Team</router-link></li>
             <li><router-link to="/about-oracle" exact>About Oracle</router-link></li>
             <li><router-link to="/achieve-success" exact>Achieve Success</router-link></li>
-            <!--<li><router-link to="/helpful-resources" exact>Helpful Resources</router-link></li>-->
+            <li><router-link to="/helpful-resources" exact>Helpful Resources</router-link></li>
           </ul>
           <ul class="menu vertical text-center hide-for-large mobile-menu" v-if="seen">
             <li><router-link to="/meet-the-team" exact v-on:click.native="seen = !seen">Meet the Team</router-link></li>
             <li><router-link to="/about-oracle" exact v-on:click.native="seen = !seen">About Oracle</router-link></li>
             <li><router-link to="/achieve-success" exact v-on:click.native="seen = !seen">Achieve Success</router-link></li>
-            <!--<li><router-link to="/helpful-resources" exact v-on:click.native="seen = !seen">Helpful Resources</router-link></li>-->
+            <li><router-link to="/helpful-resources" exact v-on:click.native="seen = !seen">Helpful Resources</router-link></li>
           </ul>
         </div>
       </header>
